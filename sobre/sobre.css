@@ -1,14 +1,15 @@
-
-
-
 @font-face {
     font-family: "Poppins";
     src: url(fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;1,400;1,600&display=swap);
 }
 
-:root {
-    --Verde-AgricoLar:#20583B;
-    --Amarelo-AgricoLar:#DDAE07;
-    --Beje-AgricoLar:#FFF1D7;
-    --marrom-Agricolar:#60502F;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFF1D7;
+}
+
+#sobre h2 {
+    
 }
