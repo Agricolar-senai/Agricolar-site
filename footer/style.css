@@ -77,40 +77,51 @@ footer{
 }
 
 .coluninha1 a:hover , .coluninha2 a:hover {
-    text-decoration-color: #696969;
     color: var(--creme-agricolar)
 
 }
 
-.img{
-    height: 250px;
-    border: white solid 7px;
+.images{
+    height: 200px;
 
     margin-top: 50px;
     margin-right: 110px;
 
     display: flex;
     flex-direction: column;
+
+    line-height: 45px;
 }
 
-.img img{
-    height: 80px;
-    width: 300px;
+.logo img{
+    height: 93px;
+    width: 350px;
+}
 
+.redes {
+    margin-left: 5px;
+}
+
+.redes a{
+    text-decoration: none;
+}
+
+.redes svg:hover {
+    fill: #FDE1AD;
+
+
+    transition: color 500ms ease;
+}
+
+
+
+#footer_copyright {
+    font-family: "Poppins";
     display: flex;
-    flex-direction: row;
-}
-
-.img a{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-}
-
-img a:hover{
-
-    text-decoration-color: #696969;
-    color: var(--creme-agricolar)
-
-
+    justify-content: center;
+    background-color: black;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 400;
+    color: white;
 }
