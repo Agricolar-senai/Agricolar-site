@@ -51,12 +51,14 @@ header {
     color: #20583B;
 
     transition: color 500ms ease;
+
+    text-decoration: underline transparent;
 }
 
 .menu a:hover{
     color: rgb(0, 183, 0);
 
-    text-decoration: ;
+    text-decoration-color: rgb(0, 183, 0);
 }
 
 /* FIM DO HEADER */
