@@ -14,6 +14,7 @@ html {
     background-color: var(--Beje-AgricoLar);
     font-family: "Poppins";
 }
+
 .container-grid {
     /* width: 80vh; */
     max-width: 1400px;
@@ -45,11 +46,12 @@ header {
 
     color: #20583B;
 }
+
 .container-grid {
     height: 100%;
     min-width: 120px;
 
-    margin:  40px;
+    margin: 40px;
 }
 
 h2 {
@@ -83,25 +85,129 @@ p {
     font-size: 30px;
 
     color: var(--Verde-AgricoLar);
+    
 }
 
-.imagem1{
-    height: 400px;
-    width: 400px;
+
+:root {
+    --verde-escuro-agricolar: #20583B;
+    --creme-agricolar: #FFF1D7;
 }
 
-.imagem2{
-    height: 400px;
-    width: 400px;
+* {
+    margin: 0;
+    padding: 0;
+    
+
 }
 
-.imagem3{
-    height: 400px;
-    width: 400px;
-}
+footer {
+    background-color: var(--verde-escuro-agricolar);
 
-.cardes {
+    height: 290px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+
+
+}
+
+.navs-footer {
+    height: 100px;
+
+    margin-top: 60px;
+    margin-left: 100px;
+
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+
+}
+
+.coluninha1 {
+    display: flex;
+    flex-direction: column;
+
+    line-height: 55px;
+
+
+}
+
+.coluninha1 a {
+    color: white;
+
+    font-size: 30px;
+    font-family: 'Poppins';
+
+    text-decoration: none;
+
+    transition: color 500ms ease;
+}
+
+.coluninha2 {
+    display: flex;
+    flex-direction: column;
+
+    line-height: 55px;
+}
+
+.coluninha2 a {
+    color: white;
+
+    font-size: 30px;
+    font-family: 'Poppins';
+
+    text-decoration: none;
+
+    transition: color 500ms ease;
+
+}
+
+.coluninha1 a:hover,
+.coluninha2 a:hover {
+    color: var(--creme-agricolar)
+}
+
+.images {
+    height: 200px;
+
+    margin-top: 50px;
+    margin-right: 110px;
+
+    display: flex;
+    flex-direction: column;
+
+    line-height: 45px;
+}
+
+.logo img {
+    height: 93px;
+    width: 350px;
+}
+
+.redes {
+    margin-left: 5px;
+}
+
+.redes a {
+    text-decoration: none;
+}
+
+.redes svg:hover {
+    fill: #FDE1AD;
+
+
+    transition: color 500ms ease;
+}
+
+
+
+#footer_copyright {
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 400;
+    color: white;
 }
