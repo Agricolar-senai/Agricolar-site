@@ -79,7 +79,7 @@
 }
 
 .cases .group-2 {
-  position: absolute;
+  position: fixed;
   width: 1914px;
   height: 100px;
   top: 0;
@@ -105,7 +105,7 @@
 
 .cases .text-wrapper {
   left: 781px;
-  position: absolute;
+  position: fixed;
   top: 39px;
   font-family: "Poppins", Helvetica;
   font-weight: 400;
@@ -117,7 +117,7 @@
 
 .cases .text-wrapper-2 {
   left: 970px;
-  position: absolute;
+  position: fixed;
   top: 39px;
   font-family: "Poppins", Helvetica;
   font-weight: 400;
@@ -129,7 +129,7 @@
 
 .cases .text-wrapper-3 {
   left: 1165px;
-  position: absolute;
+  position: fixed;
   top: 39px;
   font-family: "Poppins", Helvetica;
   font-weight: 400;
@@ -141,7 +141,7 @@
 
 .cases .text-wrapper-4 {
   left: 1607px;
-  position: absolute;
+  position: fixed;
   top: 39px;
   font-family: "Poppins", Helvetica;
   font-weight: 400;
@@ -153,7 +153,7 @@
 
 .cases .text-wrapper-5 {
   left: 1366px;
-  position: absolute;
+  position: fixed;
   top: 39px;
   font-family: "Poppins", Helvetica;
   font-weight: 400;
