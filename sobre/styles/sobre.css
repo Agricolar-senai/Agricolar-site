@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: "Poppins-SemiBold";
-    src: url(../assets/fonts/Poppins/Poppins-SemiBold.ttf);
+    src: url(../assets/fonts/Poppins-SemiBold.ttf);
 }
 @font-face {
     font-family: "Poppins-Bold";
@@ -51,7 +51,7 @@ header{
     justify-content: center;
 }
 
-.title h1{
+.title{
     width: 100%;
     font-family: "Poppins-Semibold";
     font-size: 38px;

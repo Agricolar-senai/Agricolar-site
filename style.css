@@ -3,6 +3,11 @@
     src: url(fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;1,400;1,600&display=swap);
 }
 
+:root {
+    --verde-escuro-agricolar: #20583B;
+    --creme-agricolar: #FFF1D7;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -44,6 +49,14 @@ header {
     text-decoration: none;
 
     color: #20583B;
+
+    transition: color 500ms ease;
+}
+
+.menu a:hover{
+    color: rgb(0, 183, 0);
+
+    text-decoration: ;
 }
 
 /* FIM DO HEADER */
