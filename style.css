@@ -50,13 +50,16 @@ header {
 
     color: #20583B;
 
-    transition: color 500ms ease;
+    transition: 500ms ease;
+    /* transition: text-decoration-color 500ms ease; */
+
+    text-decoration: underline transparent;
 }
 
 .menu a:hover{
     color: rgb(0, 183, 0);
 
-    text-decoration: ;
+    text-decoration-color: rgb(0, 183, 0);
 }
 
 /* FIM DO HEADER */
@@ -104,6 +107,8 @@ header {
     font-size: 22px;
     font-weight: 700;
     color: white;
+
+    cursor: pointer;
 }
 
 .p1 {
@@ -114,3 +119,18 @@ header {
     color: #60502F ;
 }
 
+.texto button a{
+    color: white;
+}
+
+.texto button:hover{
+    background-color: #133322;
+}
+
+.texto button a:hover{
+    color: #FFF1D7;
+}
+
+#cases{
+    height: 1400px;
+}
