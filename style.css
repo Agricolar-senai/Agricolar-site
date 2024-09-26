@@ -50,7 +50,8 @@ header {
 
     color: #20583B;
 
-    transition: color 500ms ease;
+    transition: 500ms ease;
+    /* transition: text-decoration-color 500ms ease; */
 
     text-decoration: underline transparent;
 }
