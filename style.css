@@ -1,20 +1,38 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;1,400;1,600&display=swap);
+}
+
+:root {
+    --verde-escuro-agricolar: #20583B;
+    --creme-agricolar: #FFF1D7;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html {
+    background-color: #FFF1D7;
+
+}
+
 .container-grid {
     /* width: 80vh; */
     max-width: 1400px;
 
-    margin: 15px auto;
+    margin: 25px auto;
 }
+
+/* INICIO DO HEADER */
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .menu {
@@ -25,3 +43,74 @@ header {
 
     font-size: 20px;
 }
+
+.menu a {
+    font-family: "Poppins";
+    text-decoration: none;
+
+    color: #20583B;
+
+    transition: color 500ms ease;
+}
+
+.menu a:hover{
+    color: rgb(0, 183, 0);
+
+    text-decoration: ;
+}
+
+/* FIM DO HEADER */
+
+
+/* BANNER INICIO */
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+/* BANNER FIM */
+
+.sobre {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.texto p {
+    font-family: "Poppins";
+    font-size: 32px;
+    width: 820px;
+    text-align: left;
+}
+
+.texto {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.texto button {
+    width: 230px;
+    height: 38px;
+    background-color: #20583B;
+    border: none;
+    border-radius: 9px;
+
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+
+.p1 {
+    color: #20583B;
+}
+
+.p2 {
+    color: #60502F ;
+}
+
