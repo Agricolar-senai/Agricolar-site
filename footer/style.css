@@ -107,7 +107,7 @@ footer{
 }
 
 .redes svg:hover {
-    fill: red;
+    fill: #FDE1AD;
 
 
     transition: color 500ms ease;
