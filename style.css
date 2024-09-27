@@ -19,7 +19,7 @@ html {
 }
 
 .container-grid {
-    /* width: 80vh; */
+    width: 80vw;
     max-width: 1400px;
 
     margin: 25px auto;
@@ -66,9 +66,9 @@ header {
 }
 
 .menu a:hover{
-    color: rgb(0, 183, 0);
+    color: rgb(96, 80, 47);
 
-    text-decoration-color: rgb(0, 183, 0);
+    text-decoration-color: rgb(96, 80, 47);
 }
 
 /* FIM DO HEADER */
@@ -103,12 +103,15 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 10px;
+    gap: 20px;
 }
 
 .texto button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 230px;
-    height: 38px;
+    height: 40px;
     background-color: #20583B;
     border: none;
     border-radius: 9px;
@@ -149,19 +152,57 @@ header {
 
 }
 
-h2 {
+a {
     font-family: "Poppins";
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 700;
 }
 
 .img {
     width: 100%;
-    height: 350px;
+    height: 300px;
     background-image: url(imgs-home-page/Group\ 145.png);
 
 
     display: flex;
     align-items: center;
-    padding: 70px;
-
-    /* font-size: ; */
+    padding: 90px;
 }
+
+/* INICIO CASES */
+
+.ajudar h2 {
+    font-family: "Poppins";
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ajudar {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.alinhamento2 a img {
+    height: 400px;
+    width: 400px;
+}
+
+.alinhamento2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* FIM CASES */
+
+/* INICIO FORM */
+#forms {
+/* Problemas com tamanho da img */
+    width: 100%;
+    height: 800px;
+    background-image: url(imgs-home-page/Group\ 134.png);
+}
+
