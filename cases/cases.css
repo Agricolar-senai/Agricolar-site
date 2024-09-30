@@ -23,6 +23,8 @@
   border-radius: 20px;
 }
 
+
+
 .cases .group {
   position: absolute;
   width: 448px;
@@ -80,11 +82,13 @@
 
 .cases .group-2 {
   position: fixed;
+
   width: 1914px;
   height: 100px;
   top: 0;
   left: 0;
   background-color: #fff0d6;
+  
 }
 
 .cases .agricolar-logo {
@@ -103,20 +107,11 @@
   left: 783px;
 }
 
-.cases .text-wrapper {
-  left: 781px;
-  position: fixed;
-  top: 39px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 400;
-  color: #20583b;
-  font-size: 30px;
-  letter-spacing: 0;
-  line-height: normal;
-}
+
+
 
 .cases .text-wrapper-2 {
-  left: 970px;
+  left: 650px;
   position: fixed;
   top: 39px;
   font-family: "Poppins", Helvetica;
@@ -125,10 +120,11 @@
   font-size: 30px;
   letter-spacing: 0;
   line-height: normal;
+  
 }
 
 .cases .text-wrapper-3 {
-  left: 1165px;
+  left: 825px;
   position: fixed;
   top: 39px;
   font-family: "Poppins", Helvetica;
@@ -140,7 +136,7 @@
 }
 
 .cases .text-wrapper-4 {
-  left: 1607px;
+  left: 1250px;
   position: fixed;
   top: 39px;
   font-family: "Poppins", Helvetica;
@@ -152,7 +148,7 @@
 }
 
 .cases .text-wrapper-5 {
-  left: 1366px;
+  left: 1025px;
   position: fixed;
   top: 39px;
   font-family: "Poppins", Helvetica;
@@ -190,7 +186,7 @@
   width: 415px;
   height: 105px;
   top: 118px;
-  left: 1357px;
+  left: 1000px;
 }
 
 .cases .vector {
@@ -198,7 +194,7 @@
   width: 53px;
   height: 52px;
   top: 273px;
-  left: 1441px;
+  left: 1100px;
 }
 
 .cases .img {
@@ -206,7 +202,7 @@
   width: 56px;
   height: 56px;
   top: 271px;
-  left: 1614px;
+  left: 1300px;
 }
 
 .cases .vector-2 {
@@ -214,7 +210,7 @@
   width: 56px;
   height: 56px;
   top: 271px;
-  left: 1526px;
+  left: 1200px;
 }
 
 .cases .group-5 {
@@ -222,7 +218,7 @@
   width: 71px;
   height: 57px;
   top: 270px;
-  left: 1702px;
+  left: 1400px;
 }
 
 .cases .vector-3 {
@@ -230,13 +226,13 @@
   width: 52px;
   height: 52px;
   top: 273px;
-  left: 1357px;
+  left: 1000px;
 }
 
 .cases .text-wrapper-6 {
   position: absolute;
   top: 97px;
-  left: 144px;
+  left: 100px;
   font-family: "Poppins", Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -248,7 +244,7 @@
 .cases .text-wrapper-7 {
   position: absolute;
   top: 192px;
-  left: 144px;
+  left: 100px;
   font-family: "Poppins", Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -259,7 +255,7 @@
 
 .cases .text-wrapper-8 {
   top: 285px;
-  left: 144px;
+  left: 100px;
   font-weight: 400;
   color: #ffffff;
   font-size: 41px;
@@ -272,7 +268,7 @@
 .cases .text-wrapper-9 {
   position: absolute;
   top: 192px;
-  left: 532px;
+  left: 452px;
   font-family: "Poppins", Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -284,7 +280,7 @@
 .cases .text-wrapper-10 {
   position: absolute;
   top: 97px;
-  left: 530px;
+  left: 450px;
   font-family: "Poppins", Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -295,7 +291,7 @@
 
 .cases .text-wrapper-11 {
   top: 196px;
-  left: 884px;
+  left: 700px;
   font-weight: 600;
   color: #20583b;
   font-size: 48px;
@@ -304,4 +300,3 @@
   letter-spacing: 0;
   line-height: normal;
 }
-

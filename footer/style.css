@@ -93,13 +93,27 @@ footer{
     line-height: 45px;
 }
 
+.logo{
+    width: 370px;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 10px;
+
+}
+
 .logo img{
     height: 93px;
     width: 350px;
 }
 
-.redes {
-    margin-left: 5px;
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 370px;
+
 }
 
 .redes a{
@@ -113,6 +127,9 @@ footer{
     transition: color 500ms ease;
 }
 
+#whatsapp{
+    margin-left: -10px;
+}
 
 
 #footer_copyright {
@@ -124,4 +141,34 @@ footer{
     padding: 1.5rem;
     font-weight: 400;
     color: white;
+}
+
+@media screen and (max-width: 1300px){
+    .coluninha1 a, .coluninha2 a{
+        font-size: 25px;
+    }
+
+    .logo img{
+        height: 80px;
+        width: 320px;
+    }
+
+    .redes{
+        width: 370px;
+
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    #whatsapp svg, #tiktok svg, #instagram svg,
+    #facebook svg, #youtube svg{
+        width: 58px;
+    }
+    
+
+    
+
+
+
 }
