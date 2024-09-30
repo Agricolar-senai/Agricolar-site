@@ -19,7 +19,7 @@
   width: 448px;
   height: 279px;
   top: 376px;
-  left: 1339px;
+  left: 1039px;
   border-radius: 20px;
 }
 
@@ -33,7 +33,11 @@
   left: 0;
   background-color: #20583b;
   border-radius: 20px;
+  
 }
+
+
+
 
 .cases .rectangle {
   position: relative;
@@ -43,15 +47,18 @@
   left: 13px;
   background-color: #fff0d6;
   border-radius: 20px;
+ 
 }
 
 .cases .IMG {
   position: absolute;
+  display: flex; align-items: center;
   width: 421px;
   height: 262px;
   top: 9px;
   left: 13px;
   object-fit: cover;
+  
 }
 
 .cases .overlap-group {
@@ -59,7 +66,7 @@
   width: 448px;
   height: 279px;
   top: 376px;
-  left: 747px;
+  left: 547px;
   border-radius: 20px;
 }
 
@@ -68,7 +75,7 @@
   width: 448px;
   height: 279px;
   top: 376px;
-  left: 155px;
+  left: 60px;
   border-radius: 20px;
 }
 
