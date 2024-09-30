@@ -82,13 +82,14 @@ h2 {
 #cases {
     display: flex;
     flex-direction: column;
-    gap: 90px;
+    gap: 40px;
 }
 
 .cards {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 50px;
 }
 
 .img1 {
@@ -123,11 +124,10 @@ p {
     margin: 0;
     padding: 0;
 
-
 }
 
 footer {
-    background-color: var(--verde-escuro-agricolar);
+    background-color:var(--verde-escuro-agricolar);
 
     height: 290px;
     display: flex;
@@ -189,7 +189,7 @@ footer {
 
 .coluninha1 a:hover,
 .coluninha2 a:hover {
-    color: var(--creme-agricolar)
+    color: var(--Beje-AgricoLar);
 }
 
 .images {
@@ -237,10 +237,13 @@ footer {
     color: white;
 }
 
-@media screen and (max-width: 1300px) {
-    .container-grid {
-       
+@media screen and (max-width: 1450px) {
+    /*.cards {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    }*/
 
+ 
     }
-    
-}
