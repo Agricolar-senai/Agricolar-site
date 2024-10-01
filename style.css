@@ -179,6 +179,8 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
+
+    color: #20583B;
 }
 
 .ajudar {
@@ -201,7 +203,6 @@ a {
 
 /* INICIO FORM */
 #forms {
-/* Problemas com tamanho da img */
     height: 800px;
     background-image: url(imgs-home-page/Group\ 134.png);   
 
@@ -382,4 +383,281 @@ a {
         display: flex;
         align-items: center;
     }
+
+    .cards {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+
+        overflow-x: auto;
     }
+
+    .coluninha1 a, .coluninha2 a{
+        font-size: 25px;
+    }
+
+    .logo img{
+        height: 80px;
+        width: 320px;
+    }
+
+    .redes{
+        width: 370px;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+
+        gap: 5px;
+
+    }
+
+    #whatsapp svg, #tiktok svg, #instagram svg,
+    #facebook svg{
+        width: 58px;
+        height: 50px;
+    }
+
+    #youtube svg{
+        width: 54px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    #forms button {
+        position: absolute;
+        left: 38%;
+    }
+}
+@media screen and (max-width: 920px){
+    .navs-footer{
+        margin-left: 75px;
+    }
+
+    .images{
+        margin-right: 85px;
+    }
+
+    .coluninha1 a, .coluninha2 a{
+        font-size: 20px;
+    }
+
+    .logo img{
+        height: 71px;
+        width: 270px;
+    }
+
+    #whatsapp svg, #tiktok svg, #instagram svg,
+    #facebook svg{
+        width: 48px;
+        height: 43px;
+    }
+
+    #youtube svg{
+        width: 48px;
+        height: 43px;
+    }
+
+}
+@media screen and (max-width:970px) {
+    #forms button {
+        position: absolute;
+        left: 36%;
+    }
+}
+@media screen and (max-width: 830px) {
+    #sobre .texto p {
+        font-size: 30px;
+        width: 500px;
+    }
+
+    #forms button {
+        position: absolute;
+        left: 34%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .navs-footer{
+        gap: 52px;
+    }
+
+    .coluninha1 a, .coluninha2 a{
+        font-size: 18px;
+    }
+
+    .images{
+        margin-right: 65px;
+    }
+    .logo img{
+        height: 65px;
+        width: 250px;
+    }
+
+    .redes{
+        margin-top: 10px;
+    }
+
+    #whatsapp svg, #tiktok svg, #instagram svg,
+    #facebook svg{
+        width: 45px;
+        height: 40px;
+    }
+
+    #youtube svg{
+        width: 45px;
+        height: 40px;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    .coluninha1 a, .coluninha2 a{
+        font-size: 17px;
+    }
+
+    .navs-footer{
+        gap: 40px;
+    }
+
+    .images{
+        margin-right: 15px;
+    }
+
+    .logo img{
+        height: 57px;
+        width: 215px;
+    }
+
+    .redes{
+        margin-top: 15px;
+    }
+
+    #whatsapp svg, #tiktok svg, #instagram svg,
+    #facebook svg{
+        width: 40px;
+        height: 35px;
+    }
+
+    #youtube svg{
+        width: 42px;
+        height: 35px;
+    }
+
+    #forms button {
+        position: absolute;
+        left: 32%;
+    }
+}
+ @media screen and (max-width:660px) {
+    
+     #sobre .texto p {
+         font-size: 20px;
+         width: 60%;
+     }
+ }
+@media screen and (max-width: 640px){
+
+    .navs-footer{
+        margin-left: 54px;
+    }
+
+    .coluninha1 a, .coluninha2 a{
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 590px){
+    .navs-footer{
+        margin-left: 35px;
+    }
+
+    .logo img{
+
+        margin-top: 25px;
+        height: 51px;
+        width: 195px;
+
+    }
+
+    .redes{
+        gap: 1px;
+    }
+
+    #whatsapp svg, #tiktok svg, #instagram svg,
+    #facebook svg{
+        width: 40px;
+        height: 31px;
+    }
+
+    #youtube svg{
+        width: 37px;
+        height: 31px;
+    }
+}
+
+@media screen and (max-width: 545px){
+    .navs-footer{
+        margin-left: 23px;
+    }
+}
+
+@media screen and (max-width: 521px){
+
+    .navs-footer{
+        margin-left: 27px;
+
+        gap: 22px;
+    }
+
+    .coluninha1 a, .coluninha2 a{
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 490px){
+    .navs-footer{
+        
+    }
+
+    .logo img{
+        height: 47px;
+        width: 170px;
+    }
+
+    .redes{
+        margin-top: 7px;
+    }
+
+    #whatsapp svg, #tiktok svg, #instagram svg,
+    #facebook svg, #youtube svg{
+        width: 35px;
+        height: 29px;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    .navs-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: initial;
+
+        margin-left: 35px;
+    }
+    .coluninha1 a, .coluninha2 a{
+        font-size: 10px;
+    }
+
+
+
+    #footer_copyright{
+        font-size: 11px;
+    }
+}
