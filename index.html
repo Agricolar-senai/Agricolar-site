@@ -9,22 +9,43 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;1,400;1,600&display=swap"
+        rel="stylesheet">
     <link rel="shortcut icon" href="imgs home page/FaviconAgricolar.png" type="image/x-icon">
 
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 
 <body>
     <header>
         <div class="container-grid alinhamento">
-
             <div class="Logo">
                 <img src="imgs-home-page/Agricolar Logo.png" alt="">
             </div>
-            
-            <div class="menu">
+            <svg id="hamburguer" onclick="abrirMenu()" width="64px" height="64px" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <path d="M4 6H20M4 12H20M4 18H20" stroke="#20583B" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </g>
+            </svg>
+            <svg id="close" onclick="fecharMenu()" width="64px" height="64px" viewBox="-3.84 -3.84 31.68 31.68"
+                fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <g id="Menu / Close_LG">
+                        <path id="Vector" d="M21 21L12 12M12 12L3 3M12 12L21.0001 3M12 12L3 21.0001" stroke="#20583B"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </svg>
+
+            <div id="menu">
                 <a href="#"> Sobre</a>
                 <a href="#"> Cases</a>
                 <a href="#"> Produtos</a>
@@ -40,7 +61,8 @@
     <section id="sobre" class="sobre container-grid">
         <div class="sobre">
             <div class="texto">
-                <p class="p1">Agricolar é uma empresa voltada para o setor agro, com foco na sustentabilidade e no cuidado com o meio ambiente. </p>
+                <p class="p1">Agricolar é uma empresa voltada para o setor agro, com foco na sustentabilidade e no
+                    cuidado com o meio ambiente. </p>
                 <p class="p1"> Nosso compromisso é promover soluções inovadoras e eficientes que apoiem </p>
                 <p class="p1">o crescimento do agronegócio, sempre respeitando os recursos naturais.</p>
                 <button><a href="#"></a>Saiba Mais</button>
@@ -59,24 +81,31 @@
         <h2>Como Podemos Ajudar?</h2>
         <div class="alinhamento2">
 
-            <a href=""> 
+            <a href="">
                 <img src="imgs-home-page/Group 151.png" alt="">
             </a>
-            
-            <a href=""> 
+
+            <a href="">
                 <img src="imgs-home-page/Group 150.png" alt="">
             </a>
-            
-            <a href=""> 
+
+            <a href="">
                 <img src="imgs-home-page/Group 149.png" alt="">
             </a>
         </div>
     </section>
 
-    <section id="forms"> 
+    <section id="forms">
 
         <button>Formulário</button>
     </section>
 
+
+
+
+
+
+
 </body>
+
 </html>

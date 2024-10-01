@@ -134,6 +134,12 @@ footer{
     margin-left: -10px;
 }
 
+#youtube svg{
+    margin-top: 2px;
+    height: 59px;
+    width: 59px;
+}
+
 
 #footer_copyright {
     font-family: "Poppins";
@@ -363,9 +369,6 @@ footer{
 }
 
 @media screen and (max-width: 490px){
-    .navs-footer{
-        
-    }
 
     .logo img{
         height: 47px;
@@ -384,22 +387,35 @@ footer{
 
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 480px){
+    footer{
+        height: 190px;
+    }
     .navs-footer{
-        display: flex;
+        gap: 0px;
+        margin-top: 20px;
+
         flex-direction: column;
-        align-items: center;
-        gap: initial;
-
-        margin-left: 35px;
-    }
-    .coluninha1 a, .coluninha2 a{
-        font-size: 10px;
     }
 
+    .coluninha1, .coluninha2{
+        line-height: 30px;
+    }
+}
 
+@media screen and (max-width: 400px){
+    footer{
+        height: 190px
+    }
 
-    #footer_copyright{
-        font-size: 11px;
+    .navs-footer{
+        gap: 0px;
+        margin-top: 20px;
+
+        flex-direction: column;
+    }
+
+    .coluninha1, .coluninha2{
+        line-height: 30px;
     }
 }

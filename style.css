@@ -44,7 +44,12 @@ header {
     justify-content: space-between;
 }
 
-.menu {
+#hamburguer, #close {
+    display: none;
+}
+
+
+#menu {
     width: 600px;
     display: flex;
     justify-content: space-between;
@@ -53,7 +58,7 @@ header {
     
 }
 
-.menu a {
+#menu a {
     font-family: "Poppins";
     text-decoration: none;
 
@@ -65,7 +70,7 @@ header {
     text-decoration: underline transparent;
 }
 
-.menu a:hover{
+#menu a:hover{
     color: rgb(96, 80, 47);
 
     text-decoration-color: rgb(96, 80, 47);
@@ -206,3 +211,24 @@ a {
     background-image: url(imgs-home-page/Group\ 134.png);
 }
 
+@media screen and (max-width: 1000px){
+    #hamburguer{
+        display: block;
+        cursor: pointer;
+    }
+
+    #close{
+        cursor: pointer;
+    }
+
+    #menu{
+        display: none;
+
+    }
+
+    #menu a{
+        display: flex;
+        flex-direction: column;
+        color: antiquewhite;
+    }
+}
