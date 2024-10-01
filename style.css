@@ -35,6 +35,7 @@ header {
     width: 100%;
     height: 120px;
     
+    z-index: 1;
 }
 
 .alinhamento {
@@ -201,8 +202,184 @@ a {
 /* INICIO FORM */
 #forms {
 /* Problemas com tamanho da img */
-    width: 100%;
     height: 800px;
-    background-image: url(imgs-home-page/Group\ 134.png);
+    background-image: url(imgs-home-page/Group\ 134.png);   
+
+    background-position: center;
+    background-position-y: top;
+
+    position: relative;
 }
 
+.botao {
+    position: absolute;
+    bottom: 80px;
+    left: 42%;
+
+    height: 60px;
+    width: 250px;
+
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Poppins";
+
+    background-color: #20583B;
+    border: none;
+    border-radius: 18px;
+
+ }
+
+ .botao:hover {
+    background-color: #133322;
+ }
+
+ footer{
+    background-color: var(--verde-escuro-agricolar);
+
+    height: 290px;
+    display: flex;
+    justify-content: space-between;
+
+    white-space: nowrap;
+
+
+}
+.navs-footer{
+    height: 100px;
+
+    margin-top: 60px;
+    margin-left: 100px;
+
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    
+}
+
+.coluninha1{ 
+    display: flex;
+    flex-direction: column;
+    
+    line-height: 55px;
+
+    
+}
+
+.coluninha1 a{
+    color: white;
+    
+    font-size: 28px;
+    font-family: 'Poppins';
+
+    text-decoration: none;
+
+    transition: color 500ms ease;
+}
+
+.coluninha2{
+    display: flex;
+    flex-direction: column;
+    
+    line-height: 55px;
+}
+
+.coluninha2 a{
+    color: white;
+    
+    font-size: 28px;
+    font-family: 'Poppins';
+
+    text-decoration: none;
+
+    transition: color 200ms ease;
+
+}
+
+.coluninha1 a:hover , .coluninha2 a:hover {
+    color: var(--creme-agricolar)
+
+}
+
+.images{
+    height: 200px;
+
+    margin-top: 50px;
+    margin-right: 110px;
+
+    display: flex;
+    flex-direction: column;
+
+    line-height: 45px;
+}
+
+.logo{
+    width: 370px;
+
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 10px;
+
+}
+
+.logo img{
+    height: 93px;
+    width: 350px;
+}
+
+.redes{
+    width: 370px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: cen;
+    flex-direction: row;
+
+    gap: 5px;
+}
+
+.redes a{
+    text-decoration: none;
+    
+}
+
+.redes svg:hover {
+    fill: #FDE1AD;
+
+}
+
+#whatsapp{
+    margin-left: -10px;
+}
+
+
+#footer_copyright {
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 400;
+    color: white; }
+
+    @media screen and (max-width:1330px){
+    .sobre {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 30px;
+    }
+
+    .sobre p {
+        text-align: center;
+    }
+
+    .texto {
+        display: flex;
+        align-items: center;
+    }
+    }
