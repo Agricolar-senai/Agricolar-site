@@ -217,7 +217,6 @@ a {
     position: relative;
 }
 
-<<<<<<< HEAD
 .botao {
     position: absolute;
     bottom: 80px;
@@ -665,26 +664,5 @@ a {
 
     #footer_copyright{
         font-size: 11px;
-=======
-@media screen and (max-width: 1000px){
-    #hamburguer{
-        display: block;
-        cursor: pointer;
-    }
-
-    #close{
-        cursor: pointer;
-    }
-
-    #menu{
-        display: none;
-
-    }
-
-    #menu a{
-        display: flex;
-        flex-direction: column;
-        color: antiquewhite;
->>>>>>> 8533f278b531428ae44d3e77832bde5ff7c789fb
     }
 }
