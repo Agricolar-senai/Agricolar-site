@@ -5,15 +5,74 @@
   justify-content: center;
   width: 100%;
 }
-
+:root {
+  --verde-escuro-agricolar: #20583B;
+  --creme-agricolar: #FFF1D7;
+}
 .cases .div {
   background-color: #fff0d6;
   overflow: hidden;
   width: 1920px;
-  height: 1310px;
+  height: 1080px;
   position: relative;
 }
+/* INICIO DO HEADER */
+header{
+  height: 120px;
+  background-color: #FFF1D7;
+}
+.nav-list a {
+  color: #20583B;
+  text-decoration: underline transparent;
+  transition: 0.3s;
+}
 
+.nav-list a:hover {
+  color: #60502F;
+
+  text-decoration-color: #60502F;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Poppins";
+  background: #FFF1D7;
+  height: 18vh;
+}
+nav img{
+  height: 60px;
+  width: 230px;
+}
+
+main {
+  background-color: #FFF1D7;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: white;
+  margin: 8px;
+  transition: 0.3s;
+} 
+/* FIM DO HEADER */
 .cases .overlap {
   position: absolute;
   width: 448px;
@@ -78,232 +137,538 @@
   left: 60px;
   border-radius: 20px;
 }
+footer{
+  background-color: var(--verde-escuro-agricolar);
 
-.cases .navbar {
-  position: absolute;
-  width: 1914px;
-  height: 100px;
-  top: 0;
-  left: 3px;
+  height: 290px;
+  display: flex;
+  justify-content: space-between;
+
+  white-space: nowrap;
+
+
 }
-
-.cases .group-2 {
-  position: fixed;
-
-  width: 1914px;
+.navs-footer{
   height: 100px;
-  top: 0;
-  left: 0;
-  background-color: #fff0d6;
+
+  margin-top: 60px;
+  margin-left: 100px;
+
+  display: flex;
+  justify-content: space-around;
+  gap: 80px;
   
 }
 
-.cases .agricolar-logo {
-  position: absolute;
-  width: 275px;
-  height: 70px;
-  top: 15px;
-  left: 141px;
-}
+.coluninha1{ 
+  display: flex;
+  flex-direction: column;
+  
+  line-height: 55px;
 
-.cases .group-3 {
-  position: absolute;
-  width: 983px;
-  height: 24px;
-  top: 33px;
-  left: 783px;
-}
-
-
-
-
-.cases .text-wrapper-2 {
-  left: 650px;
-  position: fixed;
-  top: 39px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 400;
-  color: #20583b;
-  font-size: 30px;
-  letter-spacing: 0;
-  line-height: normal;
   
 }
 
-.cases .text-wrapper-3 {
-  left: 825px;
-  position: fixed;
-  top: 39px;
-  font-family: "Poppins", Helvetica;
+.coluninha1 a{
+  color: white;
+  
+  font-size: 28px;
+  font-family: 'Poppins';
+
+  text-decoration: none;
+
+  transition: color 500ms ease;
+}
+
+.coluninha2{
+  display: flex;
+  flex-direction: column;
+  
+  line-height: 55px;
+}
+
+.coluninha2 a{
+  color: white;
+  
+  font-size: 28px;
+  font-family: 'Poppins';
+
+  text-decoration: none;
+
+  transition: color 200ms ease;
+
+}
+
+.coluninha1 a:hover , .coluninha2 a:hover {
+  color: var(--creme-agricolar)
+
+}
+
+.images{
+  height: 200px;
+
+  margin-top: 50px;
+  margin-right: 110px;
+
+  display: flex;
+  flex-direction: column;
+
+  line-height: 45px;
+}
+
+.logo{
+  width: 370px;
+
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 10px;
+
+}
+
+.logo img{
+  height: 93px;
+  width: 350px;
+}
+
+.redes{
+  width: 370px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+  gap: 5px;
+}
+
+.redes a{
+  text-decoration: none;
+  
+}
+
+.redes svg:hover {
+  fill: #FDE1AD;
+
+}
+
+#whatsapp{
+  margin-left: -10px;
+}
+
+
+#footer_copyright {
+  font-family: "Poppins";
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  font-size: 0.9rem;
+  padding: 1.5rem;
   font-weight: 400;
-  color: #20583b;
-  font-size: 30px;
-  letter-spacing: 0;
-  line-height: normal;
+  color: white;
 }
 
-.cases .text-wrapper-4 {
-  left: 1250px;
-  position: fixed;
-  top: 39px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 400;
-  color: #20583b;
-  font-size: 30px;
-  letter-spacing: 0;
-  line-height: normal;
+@media screen and (max-width: 1300px){
+  .coluninha1 a, .coluninha2 a{
+      font-size: 25px;
+  }
+
+  .logo img{
+      height: 80px;
+      width: 320px;
+  }
+
+  .redes{
+      width: 370px;
+
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+
+      gap: 5px;
+
+  }
+
+  #whatsapp svg, #tiktok svg, #instagram svg,
+  #facebook svg{
+      width: 58px;
+      height: 50px;
+  }
+
+  #youtube svg{
+      width: 54px;
+      height: 50px;
+  }
 }
 
-.cases .text-wrapper-5 {
-  left: 1025px;
-  position: fixed;
-  top: 39px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 400;
-  color: #20583b;
-  font-size: 30px;
-  letter-spacing: 0;
-  line-height: normal;
+@media screen and (max-width: 1080px){
+  .coluninha1 a, .coluninha2 a{
+      font-size: 22px;
+  }
+
+  .logo img{
+      height: 77px;
+      width: 290px;
+  }
+
+  
+  #whatsapp svg, #tiktok svg, #instagram svg,
+  #facebook svg{
+      width: 53px;
+      height: 48px;
+  }
+
+  #youtube svg{
+      width: 53px;
+      height: 48px;
+  }
+
 }
 
-.cases .overlap-3 {
-  position: absolute;
-  width: 1920px;
-  height: 418px;
-  top: 893px;
-  left: 0;
+@media screen and (max-width: 920px){
+  .navs-footer{
+      margin-left: 75px;
+  }
+
+  .images{
+      margin-right: 85px;
+  }
+
+  .coluninha1 a, .coluninha2 a{
+      font-size: 20px;
+  }
+
+  .logo img{
+      height: 71px;
+      width: 270px;
+  }
+
+  #whatsapp svg, #tiktok svg, #instagram svg,
+  #facebook svg{
+      width: 48px;
+      height: 43px;
+  }
+
+  #youtube svg{
+      width: 48px;
+      height: 43px;
+  }
+
 }
 
-.cases .group-wrapper {
-  position: absolute;
-  width: 1920px;
-  height: 418px;
-  top: 0;
-  left: 0;
+@media screen and (max-width: 800px){
+  .navs-footer{
+      gap: 52px;
+  }
+
+  .coluninha1 a, .coluninha2 a{
+      font-size: 18px;
+  }
+
+  .images{
+      margin-right: 65px;
+  }
+  .logo img{
+      height: 65px;
+      width: 250px;
+  }
+
+  .redes{
+      margin-top: 10px;
+  }
+
+  #whatsapp svg, #tiktok svg, #instagram svg,
+  #facebook svg{
+      width: 45px;
+      height: 40px;
+  }
+
+  #youtube svg{
+      width: 45px;
+      height: 40px;
+  }
+
 }
 
-.cases .group-4 {
-  position: relative;
-  height: 418px;
-  background-color: #20583b;
+@media screen and (max-width: 700px){
+  .coluninha1 a, .coluninha2 a{
+      font-size: 17px;
+  }
+
+  .navs-footer{
+      gap: 40px;
+  }
+
+  .images{
+      margin-right: 15px;
+  }
+
+  .logo img{
+      height: 57px;
+      width: 215px;
+  }
+
+  .redes{
+      margin-top: 15px;
+  }
+
+  #whatsapp svg, #tiktok svg, #instagram svg,
+  #facebook svg{
+      width: 40px;
+      height: 35px;
+  }
+
+  #youtube svg{
+      width: 42px;
+      height: 35px;
+  }
 }
 
-.cases .agricolar-positivo {
-  position: absolute;
-  width: 415px;
-  height: 105px;
-  top: 118px;
-  left: 1000px;
+@media screen and (max-width: 640px){
+  .navs-footer{
+      margin-left: 54px;
+  }
+
+  .coluninha1 a, .coluninha2 a{
+      font-size: 16px;
+      font-weight: 600;
+  }
 }
 
-.cases .vector {
-  position: absolute;
-  width: 53px;
-  height: 52px;
-  top: 273px;
-  left: 1100px;
+@media screen and (max-width: 590px){
+  .navs-footer{
+      margin-left: 35px;
+  }
+
+  .logo img{
+
+      margin-top: 25px;
+      height: 51px;
+      width: 195px;
+
+  }
+
+  .redes{
+      gap: 1px;
+  }
+
+  #whatsapp svg, #tiktok svg, #instagram svg,
+  #facebook svg{
+      width: 40px;
+      height: 31px;
+  }
+
+  #youtube svg{
+      width: 37px;
+      height: 31px;
+  }
 }
 
-.cases .img {
-  position: absolute;
-  width: 56px;
-  height: 56px;
-  top: 271px;
-  left: 1300px;
+@media screen and (max-width: 545px){
+  .navs-footer{
+      margin-left: 23px;
+  }
 }
 
-.cases .vector-2 {
-  position: absolute;
-  width: 56px;
-  height: 56px;
-  top: 271px;
-  left: 1200px;
+@media screen and (max-width: 521px){
+
+  .navs-footer{
+      margin-left: 27px;
+
+      gap: 22px;
+  }
+
+  .coluninha1 a, .coluninha2 a{
+      font-size: 14px;
+      font-weight: 600;
+  }
 }
 
-.cases .group-5 {
-  position: absolute;
-  width: 71px;
-  height: 57px;
-  top: 270px;
-  left: 1400px;
+@media screen and (max-width: 490px){
+  .navs-footer{
+      
+  }
+
+  .logo img{
+      height: 47px;
+      width: 170px;
+  }
+
+  .redes{
+      margin-top: 7px;
+  }
+
+  #whatsapp svg, #tiktok svg, #instagram svg,
+  #facebook svg, #youtube svg{
+      width: 35px;
+      height: 29px;
+  }
+
 }
 
-.cases .vector-3 {
-  position: absolute;
-  width: 52px;
-  height: 52px;
-  top: 273px;
-  left: 1000px;
+@media screen and (max-width: 400px){
+  .navs-footer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: initial;
+
+      margin-left: 35px;
+  }
+  .coluninha1 a, .coluninha2 a{
+      font-size: 10px;
+  }
+
+
+
+  #footer_copyright{
+      font-size: 11px;
+  }
+}
+@media screen and (max-width: 1250px){
+  nav img{
+      margin-top: 40px;
+  }
 }
 
-.cases .text-wrapper-6 {
-  position: absolute;
-  top: 97px;
-  left: 100px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 41px;
-  letter-spacing: 0;
-  line-height: normal;
+@media screen and (max-width: 1200px){
+  body {
+    overflow-x: hidden;
+  }
+  .nav-list {
+    position: absolute;
+    top: 0vh;
+    right: 0;
+    width: 28vw;
+    height: 110vh;
+    background: #20583B;
+    flex-direction: column;
+    justify-content: space-evenly;
+    line-height: 40px;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+
+  .nav-list a{
+      color: #FFF1D7;
+      font-size: 20px;
+      font-family: "Poppins";
+      margin-left: 40px;
+  }
+  .nav-list li {
+    margin-left: 0;
+    opacity: 0;
+  }
+
+  nav img{
+      margin-top: 40px;
+      margin-left: 60px;
+  }
+
+  nav{
+      display: flex;
+      justify-content: space-between;
+  }
+  .mobile-menu {
+    display: block;
+    margin-top: 45px;
+    margin-right: 60px;
+
+    z-index: 1;
+  }
 }
 
-.cases .text-wrapper-7 {
-  position: absolute;
-  top: 192px;
-  left: 100px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 41px;
-  letter-spacing: 0;
-  line-height: normal;
+.nav-list.active {
+  transform: translateX(0);
 }
 
-.cases .text-wrapper-8 {
-  top: 285px;
-  left: 100px;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 41px;
-  position: absolute;
-  font-family: "Poppins", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
-.cases .text-wrapper-9 {
-  position: absolute;
-  top: 192px;
-  left: 452px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 41px;
-  letter-spacing: 0;
-  line-height: normal;
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
 }
 
-.cases .text-wrapper-10 {
-  position: absolute;
-  top: 97px;
-  left: 450px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 41px;
-  letter-spacing: 0;
-  line-height: normal;
+.mobile-menu.active .line2 {
+  opacity: 0;
 }
 
-.cases .text-wrapper-11 {
-  top: 196px;
-  left: 700px;
-  font-weight: 600;
-  color: #20583b;
-  font-size: 48px;
-  position: absolute;
-  font-family: "Poppins", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
 }
+.mobile-menu.active .line1, .mobile-menu.active .line2, .mobile-menu.active .line3{
+  margin-left: -10px;
+}
+
+@media screen and (max-width: 770px){
+  .nav-list a{
+      color: #FFF1D7;
+      font-size: 15px;
+      font-family: "Poppins";
+      margin-left: 40px;
+  }
+
+  .mobile-menu {
+      margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 630px){
+  .nav-list a{
+      color: #FFF1D7;
+      font-size: 15px;
+      font-family: "Poppins";
+      margin-left: 20px;
+  }
+
+  .mobile-menu {
+      margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 555px){
+
+  .nav-list a{
+      font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width: 450px){
+  .mobile-menu {
+      margin-right: 5px;
+      margin-top: 20px;
+    }
+
+    .nav-list a{
+      font-size: 10px;
+      font-weight: 900;
+      margin-left: 8px;
+  }
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
