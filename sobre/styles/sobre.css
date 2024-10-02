@@ -319,6 +319,98 @@ footer{
     font-weight: 400;
     color: white;
 }
+   
+@media screen and (max-width: 938px) {
+    .small-button a {
+        font-size: 12px
+    }
+}
+
+@media screen and (max-width: 862px) {
+    #image_about {
+        height: 325px;
+    }   
+}
+
+@media screen and (max-width: 747px) {
+    .paragraph {
+        font-size: 16px;
+    }
+
+    #image_about {
+        height: 325px;
+    }   
+
+    .small-button a {
+        font-size: 10px
+    }
+}
+
+@media screen and (max-width: 673px) {
+    .img {
+        height: 300px;
+    }
+
+    #image_about {
+        height: 240px;
+    }   
+
+    .small-button {
+        width: 16%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .title {
+        font-size: 25px;
+    }
+
+    .paragraph {
+        font-size: 14px;
+    }
+
+    #image_about {
+        height: 205px;
+    }   
+}
+
+@media screen and (max-width: 471px) {
+    #image_about {
+        height: 150px;
+    }   
+
+    .small-button {
+        width: 18%;
+    }
+
+    .small-button a {
+        font-size: 9px
+    }
+}
+
+@media screen and (max-width: 471px) {
+    .img {
+        height: 250px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .paragraph {
+        font-size: 12px;
+        gap: 0px;
+    }
+
+
+    #image_about {
+        height: 120px;
+    }   
+
+    .small-button {
+        width: 29%;
+    }
+}
 
 @media screen and (max-width: 1300px){
     .coluninha1 a, .coluninha2 a{
@@ -377,12 +469,6 @@ footer{
 
 }
 
-@media screen and (max-width: 938px) {
-    .small-button a {
-        font-size: 12px
-    }
-}
-
 @media screen and (max-width: 920px){
     .navs-footer{
         margin-left: 75px;
@@ -412,12 +498,6 @@ footer{
         height: 43px;
     }
 
-}
-
-@media screen and (max-width: 862px) {
-    #image_about {
-        height: 325px;
-    }   
 }
 
 @media screen and (max-width: 800px){
@@ -454,20 +534,6 @@ footer{
 
 }
 
-@media screen and (max-width: 747px) {
-    .paragraph {
-        font-size: 16px;
-    }
-
-    #image_about {
-        height: 325px;
-    }   
-
-    .small-button a {
-        font-size: 10px
-    }
-}
-
 @media screen and (max-width: 700px){
     .coluninha1 a, .coluninha2 a{
         font-size: 17px;
@@ -499,20 +565,6 @@ footer{
     #youtube svg{
         width: 42px;
         height: 35px;
-    }
-}
-
-@media screen and (max-width: 673px) {
-    .img {
-        height: 300px;
-    }
-
-    #image_about {
-        height: 240px;
-    }   
-
-    .small-button {
-        width: 16%;
     }
 }
 
@@ -554,20 +606,6 @@ footer{
         width: 37px;
         height: 31px;
     }
-}
-
-@media screen and (max-width: 550px) {
-    .title {
-        font-size: 25px;
-    }
-
-    .paragraph {
-        font-size: 14px;
-    }
-
-    #image_about {
-        height: 205px;
-    }   
 }
 
 @media screen and (max-width: 545px){
@@ -622,44 +660,6 @@ footer{
 
     .coluninha1, .coluninha2{
         line-height: 30px;
-    }
-}
-
-    @media screen and (max-width: 471px) {
-        #image_about {
-            height: 150px;
-        }   
-    
-        .small-button {
-            width: 18%;
-        }
-
-        .small-button a {
-            font-size: 9px
-        }
-    }
-
-    @media screen and (max-width: 471px) {
-    .img {
-        height: 250px;
-    }
-
-    .title {
-        font-size: 20px;
-    }
-
-    .paragraph {
-        font-size: 12px;
-        gap: 0px;
-    }
-
-
-    #image_about {
-        height: 120px;
-    }   
-
-    .small-button {
-        width: 29%;
     }
 }
 
