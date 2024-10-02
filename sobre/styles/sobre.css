@@ -15,6 +15,8 @@
     --beige: #FFF1D7;
     --green: #20583B;
     --brown: #60502F;
+    --verde-escuro-agricolar: #20583B;
+    --creme-agricolar: #FFF1D7;
 }
 
 /* Informations Reset */
@@ -192,23 +194,6 @@ header {
     fill: #20583B;
 }
 
-@font-face {
-    font-family: "Poppins";
-    src: url(fonts/Poppins-Regular.ttf);
-}
-
-:root {
-    --verde-escuro-agricolar: #20583B;
-    --creme-agricolar: #FFF1D7;
-}
-
-/* Reset CSS */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
 
 footer{
     background-color: var(--verde-escuro-agricolar);
@@ -216,6 +201,8 @@ footer{
     height: 290px;
     display: flex;
     justify-content: space-between;
+
+    white-space: nowrap;
 
 
 }
@@ -243,7 +230,7 @@ footer{
 .coluninha1 a{
     color: white;
     
-    font-size: 30px;
+    font-size: 28px;
     font-family: 'Poppins';
 
     text-decoration: none;
@@ -261,12 +248,12 @@ footer{
 .coluninha2 a{
     color: white;
     
-    font-size: 30px;
+    font-size: 28px;
     font-family: 'Poppins';
 
     text-decoration: none;
 
-    transition: color 500ms ease;
+    transition: color 200ms ease;
 
 }
 
@@ -287,26 +274,50 @@ footer{
     line-height: 45px;
 }
 
+.logo{
+    width: 370px;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 10px;
+
+}
+
 .logo img{
     height: 93px;
     width: 350px;
 }
 
-.redes {
-    margin-left: 5px;
+.redes{
+    width: 370px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    gap: 5px;
 }
 
 .redes a{
     text-decoration: none;
+    
 }
 
 .redes svg:hover {
     fill: #FDE1AD;
 
-
-    transition: color 500ms ease;
 }
 
+#whatsapp{
+    margin-left: -10px;
+}
+
+#youtube svg{
+    margin-top: 2px;
+    height: 59px;
+    width: 59px;
+}
 
 
 #footer_copyright {
@@ -319,98 +330,8 @@ footer{
     font-weight: 400;
     color: white;
 }
-   
-@media screen and (max-width: 938px) {
-    .small-button a {
-        font-size: 12px
-    }
-}
-
-@media screen and (max-width: 862px) {
-    #image_about {
-        height: 325px;
-    }   
-}
-
-@media screen and (max-width: 747px) {
-    .paragraph {
-        font-size: 16px;
-    }
-
-    #image_about {
-        height: 325px;
-    }   
-
-    .small-button a {
-        font-size: 10px
-    }
-}
-
-@media screen and (max-width: 673px) {
-    .img {
-        height: 300px;
-    }
-
-    #image_about {
-        height: 240px;
-    }   
-
-    .small-button {
-        width: 16%;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .title {
-        font-size: 25px;
-    }
-
-    .paragraph {
-        font-size: 14px;
-    }
-
-    #image_about {
-        height: 205px;
-    }   
-}
-
-@media screen and (max-width: 471px) {
-    #image_about {
-        height: 150px;
-    }   
-
-    .small-button {
-        width: 18%;
-    }
-
-    .small-button a {
-        font-size: 9px
-    }
-}
-
-@media screen and (max-width: 471px) {
-    .img {
-        height: 250px;
-    }
-
-    .title {
-        font-size: 20px;
-    }
-
-    .paragraph {
-        font-size: 12px;
-        gap: 0px;
-    }
 
 
-    #image_about {
-        height: 120px;
-    }   
-
-    .small-button {
-        width: 29%;
-    }
-}
 
 @media screen and (max-width: 1300px){
     .coluninha1 a, .coluninha2 a{
@@ -679,3 +600,99 @@ footer{
         line-height: 30px;
     }
 }
+
+   
+
+@media screen and (max-width: 938px) {
+    .small-button a {
+        font-size: 12px
+    }
+}
+
+@media screen and (max-width: 862px) {
+    #image_about {
+        height: 325px;
+    }   
+}
+
+@media screen and (max-width: 747px) {
+    .paragraph {
+        font-size: 16px;
+    }
+
+    #image_about {
+        height: 325px;
+    }   
+
+    .small-button a {
+        font-size: 10px
+    }
+}
+
+@media screen and (max-width: 673px) {
+    .img {
+        height: 300px;
+    }
+
+    #image_about {
+        height: 240px;
+    }   
+
+    .small-button {
+        width: 16%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .title {
+        font-size: 25px;
+    }
+
+    .paragraph {
+        font-size: 14px;
+    }
+
+    #image_about {
+        height: 205px;
+    }   
+}
+
+@media screen and (max-width: 471px) {
+    #image_about {
+        height: 150px;
+    }   
+
+    .small-button {
+        width: 18%;
+    }
+
+    .small-button a {
+        font-size: 9px
+    }
+}
+
+@media screen and (max-width: 471px) {
+    .img {
+        height: 250px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .paragraph {
+        font-size: 12px;
+        gap: 0px;
+    }
+
+
+    #image_about {
+        height: 120px;
+    }   
+
+    .small-button {
+        width: 29%;
+    }
+}
+
+
