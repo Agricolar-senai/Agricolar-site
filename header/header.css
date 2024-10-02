@@ -22,10 +22,11 @@
 }
 
 /* INICIO DO HEADER */
-header{
+header {
   height: 120px;
   background-color: #000000;
 }
+
 .nav-list a {
   color: #20583B;
   text-decoration: underline transparent;
@@ -46,7 +47,8 @@ nav {
   background: #FFF1D7;
   height: 18vh;
 }
-nav img{
+
+nav img {
   height: 60px;
   width: 230px;
 }
@@ -76,30 +78,20 @@ main {
   background: #20583B;
   margin: 8px;
   transition: 0.3s;
-} 
-/* FIM DO HEADER */
-
-
-/* BANNER INICIO */
-.banner{
-  width: 100%;
-  height: 100%;
 }
-/* BANNER FIM */
 
 
-
-
-@media screen and (max-width: 1250px){
-  nav img{
-      margin-top: 40px;
+@media screen and (max-width: 1250px) {
+  nav img {
+    margin-top: 40px;
   }
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
   body {
     overflow-x: hidden;
   }
+
   .nav-list {
     position: absolute;
     top: 0vh;
@@ -114,26 +106,28 @@ main {
     transition: transform 0.3s ease-in;
   }
 
-  .nav-list a{
-      color: #20583B;
-      font-size: 20px;
-      font-family: "Poppins";
-      margin-left: 40px;
+  .nav-list a {
+    color: #20583B;
+    font-size: 20px;
+    font-family: "Poppins";
+    margin-left: 40px;
   }
+
   .nav-list li {
     margin-left: 0;
     opacity: 0;
   }
 
-  nav img{
-      margin-top: 40px;
-      margin-left: 60px;
+  nav img {
+    margin-top: 40px;
+    margin-left: 60px;
   }
 
-  nav{
-      display: flex;
-      justify-content: space-between;
+  nav {
+    display: flex;
+    justify-content: space-between;
   }
+
   .mobile-menu {
     display: block;
     margin-top: 45px;
@@ -152,6 +146,7 @@ main {
     opacity: 0;
     transform: translateX(50px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -160,62 +155,67 @@ main {
 
 .mobile-menu.active .line1 {
   transform: rotate(-45deg) translate(-8px, 8px);
-}
 
-.mobile-menu.active .line2 {
-  opacity: 0;
-}
 
-.mobile-menu.active .line3 {
-  transform: rotate(45deg) translate(-5px, -7px);
-}
-.mobile-menu.active .line1, .mobile-menu.active .line2, .mobile-menu.active .line3{
-  margin-left: -10px;
-}
+  .mobile-menu.active .line2 {
+    opacity: 0;
+  }
 
-@media screen and (max-width: 770px){
-  .nav-list a{
+  .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+  }
+
+  .mobile-menu.active .line1,
+  .mobile-menu.active .line2,
+  .mobile-menu.active .line3 {
+    margin-left: -10px;
+  }
+
+
+  @media screen and (max-width: 770px) {
+    .nav-list a {
       color: #20583B;
       font-size: 15px;
       font-family: "Poppins";
       margin-left: 40px;
-  }
+    }
 
-  .mobile-menu {
+    .mobile-menu {
       margin-right: 40px;
     }
-}
+  }
 
-@media screen and (max-width: 630px){
-  .nav-list a{
+  @media screen and (max-width: 630px) {
+    .nav-list a {
       color: #20583B;
       font-size: 15px;
       font-family: "Poppins";
       margin-left: 20px;
-  }
+    }
 
-  .mobile-menu {
+    .mobile-menu {
       margin-right: 20px;
     }
-}
-
-@media screen and (max-width: 555px){
-
-  .nav-list a{
-      font-size: 12px;
   }
 
-}
+  @media screen and (max-width: 555px) {
 
-@media screen and (max-width: 450px){
-  .mobile-menu {
+    .nav-list a {
+      font-size: 12px;
+    }
+
+  }
+
+  @media screen and (max-width: 450px) {
+    .mobile-menu {
       margin-right: 5px;
       margin-top: 20px;
     }
 
-    .nav-list a{
+    .nav-list a {
       font-size: 10px;
       font-weight: 900;
       margin-left: 8px;
+    }
   }
 }
