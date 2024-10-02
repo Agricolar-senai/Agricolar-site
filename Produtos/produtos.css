@@ -24,51 +24,72 @@ html {
 
 /* INICIO DO HEADER */
 
+/* INICIO DO HEADER */
 header {
-
-    position: fixed;
-
-    background-color: #FFF1D7;
-    width: 100%;
     height: 120px;
-
+    background-color: #FFF1D7;
 }
 
-.alinhamento {
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.menu {
-    width: 600px;
-    display: flex;
-    justify-content: space-between;
-
-    font-size: 20px;
-
-}
-
-.menu a {
-    font-family: "Poppins";
-    text-decoration: none;
-
+.nav-list a {
     color: #20583B;
-
-    transition: 500ms ease;
-    /* transition: text-decoration-color 500ms ease; */
-
     text-decoration: underline transparent;
+    transition: 0.3s;
 }
 
-.menu a:hover {
-    color: var(--marrom-Agricolar);
+.nav-list a:hover {
+    color: #60502F;
 
-    text-decoration-color: var(--marrom-Agricolar);
+    text-decoration-color: #60502F;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Poppins";
+    background: #FFF1D7;
+    height: 18vh;
+}
+
+nav img {
+    height: 60px;
+    width: 230px;
+}
+
+main {
+    background-color: #FFF1D7;
+}
+
+#hamburguer,
+#close {
+    display: none;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: white;
+    margin: 8px;
+    transition: 0.3s;
 }
 
 /* FIM DO HEADER */
+
 
 h2 {
     margin-top: 110px;
@@ -114,15 +135,16 @@ p {
 
 }
 
-
 :root {
     --verde-escuro-agricolar: #20583B;
     --creme-agricolar: #FFF1D7;
 }
 
+/* Reset CSS */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 
@@ -132,6 +154,8 @@ footer {
     height: 290px;
     display: flex;
     justify-content: space-between;
+
+    white-space: nowrap;
 
 
 }
@@ -160,7 +184,7 @@ footer {
 .coluninha1 a {
     color: white;
 
-    font-size: 30px;
+    font-size: 28px;
     font-family: 'Poppins';
 
     text-decoration: none;
@@ -178,18 +202,18 @@ footer {
 .coluninha2 a {
     color: white;
 
-    font-size: 30px;
+    font-size: 28px;
     font-family: 'Poppins';
 
     text-decoration: none;
 
-    transition: color 500ms ease;
+    transition: color 200ms ease;
 
 }
 
 .coluninha1 a:hover,
 .coluninha2 a:hover {
-    color: var(--Beje-AgricoLar);
+    color: var(--creme-agricolar)
 }
 
 .images {
@@ -204,26 +228,50 @@ footer {
     line-height: 45px;
 }
 
+.logo {
+    width: 370px;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 10px;
+
+}
+
 .logo img {
     height: 93px;
     width: 350px;
 }
 
 .redes {
-    margin-left: 5px;
+    width: 370px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    gap: 5px;
 }
 
 .redes a {
     text-decoration: none;
+
 }
 
 .redes svg:hover {
     fill: #FDE1AD;
 
-
-    transition: color 500ms ease;
 }
 
+#whatsapp {
+    margin-left: -10px;
+}
+
+#youtube svg {
+    margin-top: 2px;
+    height: 59px;
+    width: 59px;
+}
 
 
 #footer_copyright {
@@ -235,6 +283,303 @@ footer {
     padding: 1.5rem;
     font-weight: 400;
     color: white;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .coluninha1 a,
+    .coluninha2 a {
+        font-size: 25px;
+    }
+
+    .logo img {
+        height: 80px;
+        width: 320px;
+    }
+
+    .redes {
+        width: 370px;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+
+        gap: 5px;
+
+    }
+
+    #whatsapp svg,
+    #tiktok svg,
+    #instagram svg,
+    #facebook svg {
+        width: 58px;
+        height: 50px;
+    }
+
+    #youtube svg {
+        width: 54px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+
+    .coluninha1 a,
+    .coluninha2 a {
+        font-size: 22px;
+    }
+
+    .logo img {
+        height: 77px;
+        width: 290px;
+    }
+
+
+    #whatsapp svg,
+    #tiktok svg,
+    #instagram svg,
+    #facebook svg {
+        width: 53px;
+        height: 48px;
+    }
+
+    #youtube svg {
+        width: 53px;
+        height: 48px;
+    }
+
+}
+
+@media screen and (max-width: 920px) {
+    .navs-footer {
+        margin-left: 75px;
+    }
+
+    .images {
+        margin-right: 85px;
+    }
+
+    .coluninha1 a,
+    .coluninha2 a {
+        font-size: 20px;
+    }
+
+    .logo img {
+        height: 71px;
+        width: 270px;
+    }
+
+    #whatsapp svg,
+    #tiktok svg,
+    #instagram svg,
+    #facebook svg {
+        width: 48px;
+        height: 43px;
+    }
+
+    #youtube svg {
+        width: 48px;
+        height: 43px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .navs-footer {
+        gap: 52px;
+    }
+
+    .coluninha1 a,
+    .coluninha2 a {
+        font-size: 18px;
+    }
+
+    .images {
+        margin-right: 65px;
+    }
+
+    .logo img {
+        height: 65px;
+        width: 250px;
+    }
+
+    .redes {
+        margin-top: 10px;
+    }
+
+    #whatsapp svg,
+    #tiktok svg,
+    #instagram svg,
+    #facebook svg {
+        width: 45px;
+        height: 40px;
+    }
+
+    #youtube svg {
+        width: 45px;
+        height: 40px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .coluninha1 a,
+    .coluninha2 a {
+        font-size: 17px;
+    }
+
+    .navs-footer {
+        gap: 40px;
+    }
+
+    .images {
+        margin-right: 15px;
+    }
+
+    .logo img {
+        height: 57px;
+        width: 215px;
+    }
+
+    .redes {
+        margin-top: 15px;
+    }
+
+    #whatsapp svg,
+    #tiktok svg,
+    #instagram svg,
+    #facebook svg {
+        width: 40px;
+        height: 35px;
+    }
+
+    #youtube svg {
+        width: 42px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .navs-footer {
+        margin-left: 54px;
+    }
+
+    .coluninha1 a,
+    .coluninha2 a {
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .navs-footer {
+        margin-left: 35px;
+    }
+
+    .logo img {
+
+        margin-top: 25px;
+        height: 51px;
+        width: 195px;
+
+    }
+
+    .redes {
+        gap: 1px;
+    }
+
+    #whatsapp svg,
+    #tiktok svg,
+    #instagram svg,
+    #facebook svg {
+        width: 40px;
+        height: 31px;
+    }
+
+    #youtube svg {
+        width: 37px;
+        height: 31px;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .navs-footer {
+        margin-left: 23px;
+    }
+}
+
+@media screen and (max-width: 521px) {
+
+    .navs-footer {
+        margin-left: 27px;
+
+        gap: 22px;
+    }
+
+    .coluninha1 a,
+    .coluninha2 a {
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 490px) {
+
+    .logo img {
+        height: 47px;
+        width: 170px;
+    }
+
+    .redes {
+        margin-top: 7px;
+    }
+
+    #whatsapp svg,
+    #tiktok svg,
+    #instagram svg,
+    #facebook svg,
+    #youtube svg {
+        width: 35px;
+        height: 29px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    footer {
+        height: 190px;
+    }
+
+    .navs-footer {
+        gap: 0px;
+        margin-top: 20px;
+
+        flex-direction: column;
+    }
+
+    .coluninha1,
+    .coluninha2 {
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    footer {
+        height: 190px
+    }
+
+    .navs-footer {
+        gap: 0px;
+        margin-top: 20px;
+
+        flex-direction: column;
+    }
+
+    .coluninha1,
+    .coluninha2 {
+        line-height: 30px;
+    }
 }
 
 @media screen and (max-width: 1470px) {
@@ -256,5 +601,30 @@ footer {
 
     #cases p {
         font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #cases h2 {
+        font-size: 30px;
+    }
+
+    #cases p {
+        font-size: 15px;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+
+        overflow-x: auto;
+    }
+
+    .img1 {
+        height: 500px;
+        width: 500px;
     }
 }
