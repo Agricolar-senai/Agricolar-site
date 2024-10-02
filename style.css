@@ -45,7 +45,12 @@ header {
     justify-content: space-between;
 }
 
-.menu {
+#hamburguer, #close {
+    display: none;
+}
+
+
+#menu {
     width: 600px;
     display: flex;
     justify-content: space-between;
@@ -54,7 +59,7 @@ header {
     
 }
 
-.menu a {
+#menu a {
     font-family: "Poppins";
     text-decoration: none;
 
@@ -66,7 +71,7 @@ header {
     text-decoration: underline transparent;
 }
 
-.menu a:hover{
+#menu a:hover{
     color: rgb(96, 80, 47);
 
     text-decoration-color: rgb(96, 80, 47);
@@ -212,6 +217,7 @@ a {
     position: relative;
 }
 
+<<<<<<< HEAD
 .botao {
     position: absolute;
     bottom: 80px;
@@ -659,5 +665,26 @@ a {
 
     #footer_copyright{
         font-size: 11px;
+=======
+@media screen and (max-width: 1000px){
+    #hamburguer{
+        display: block;
+        cursor: pointer;
+    }
+
+    #close{
+        cursor: pointer;
+    }
+
+    #menu{
+        display: none;
+
+    }
+
+    #menu a{
+        display: flex;
+        flex-direction: column;
+        color: antiquewhite;
+>>>>>>> 8533f278b531428ae44d3e77832bde5ff7c789fb
     }
 }
