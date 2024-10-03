@@ -21,7 +21,7 @@
   position: absolute;
   width: 448px;
   height: 279px;
-  top: 376px;
+  top: 250px;
   left: 1039px;
   border-radius: 20px;
 }
@@ -68,7 +68,7 @@
   position: absolute;
   width: 448px;
   height: 279px;
-  top: 376px;
+  top: 250px;
   left: 547px;
   border-radius: 20px;
 }
@@ -77,10 +77,11 @@
   position: absolute;
   width: 448px;
   height: 279px;
-  top: 376px;
+  top:250px;
   left: 60px;
   border-radius: 20px;
 }
+
 footer{
   background-color: var(--verde-escuro-agricolar);
 
@@ -283,6 +284,11 @@ main {
 .cases .IMG {
   height: 201px;
   width: 360px;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+  
 
 }
 .cases .group {
@@ -531,11 +537,11 @@ main {
   }
 
 
-
   #footer_copyright{
       font-size: 11px;
   }
 }
+
 @media screen and (max-width: 1250px){
   nav img{
       margin-top: 40px;
