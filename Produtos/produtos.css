@@ -43,6 +43,7 @@ html {
     font-family: "Poppins";
     background: #FFF1D7;
     height: 18vh;
+    /* position: fixed; */
   }
   nav img{
     height: 60px;

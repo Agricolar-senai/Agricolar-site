@@ -1,8 +1,3 @@
-@font-face {
-  font-family: 'Poppins';
-  src: url(Poppins/Poppins-SemiBold.ttf);
-}
-
 .cases {
   background-color: #fff0d6;
   display: flex;
@@ -13,14 +8,6 @@
 :root {
   --verde-escuro-agricolar: #20583B;
   --creme-agricolar: #FFF1D7;
-}
-h1 {color: #20583B;
-background-color:var(--creme-agricolar);
-text-align: center;
-font-size: 44px;
-font-family: 'Poppins';
-
-
 }
 .cases .div {
  
@@ -84,6 +71,7 @@ font-family: 'Poppins';
   left: 60px;
   border-radius: 20px;
 }
+
 footer{
   background-color: var(--verde-escuro-agricolar);
 
@@ -553,11 +541,11 @@ main {
   }
 
 
-
   #footer_copyright{
       font-size: 11px;
   }
 }
+
 @media screen and (max-width: 1250px){
   nav img{
       margin-top: 40px;
