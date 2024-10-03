@@ -55,16 +55,6 @@ font-family: 'Poppins';
 
 
 
-.cases .rectangle {
-  position: relative;
-  width: 421px;
-  height: 262px;
-  top: 9px;
-  left: 13px;
-  background-color: #fff0d6;
-  border-radius: 20px;
- 
-}
 
 .cases .IMG {
   position: absolute;
@@ -296,14 +286,27 @@ main {
 .cases .IMG {
   height: 201px;
   width: 360px;
- display: flex;
- justify-content: center;
- flex-direction: column;
- align-items: center;
+  border-radius: 20px;
+  left: 7px;
+  top: 14px;
   
+}
 
+.cases .overlap-2 {
+  top: 50px;
+  left: 440px;
+}
+.cases .overlap-group {
+  top: 350px;
+  left: 440px;
+}
+.cases .overlap{
+  top: 650px;
+  left: 440px;
 }
 .cases .group {
+  height: 228px;
+  width: 377px;
 
 }
   .redes{
@@ -333,7 +336,7 @@ main {
   .coluninha1 a, .coluninha2 a{
       font-size: 22px;
   }
-
+  
   .logo img{
       height: 77px;
       width: 290px;
@@ -422,6 +425,7 @@ main {
   .coluninha1 a, .coluninha2 a{
       font-size: 17px;
   }
+  
 
   .navs-footer{
       gap: 40px;
