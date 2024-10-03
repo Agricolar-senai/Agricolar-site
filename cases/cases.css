@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url(Poppins/Poppins-SemiBold.ttf);
+}
+
 .cases {
   background-color: #fff0d6;
   display: flex;
@@ -8,6 +13,14 @@
 :root {
   --verde-escuro-agricolar: #20583B;
   --creme-agricolar: #FFF1D7;
+}
+h1 {color: #20583B;
+background-color:var(--creme-agricolar);
+text-align: center;
+font-size: 44px;
+font-family: 'Poppins';
+
+
 }
 .cases .div {
  
@@ -21,7 +34,7 @@
   position: absolute;
   width: 448px;
   height: 279px;
-  top: 376px;
+  top: 250px;
   left: 1039px;
   border-radius: 20px;
 }
@@ -68,7 +81,7 @@
   position: absolute;
   width: 448px;
   height: 279px;
-  top: 376px;
+  top: 250px;
   left: 547px;
   border-radius: 20px;
 }
@@ -77,7 +90,7 @@
   position: absolute;
   width: 448px;
   height: 279px;
-  top: 376px;
+  top:250px;
   left: 60px;
   border-radius: 20px;
 }
@@ -283,6 +296,11 @@ main {
 .cases .IMG {
   height: 201px;
   width: 360px;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+  
 
 }
 .cases .group {
