@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url(Poppins/Poppins-SemiBold.ttf);
+}
+
+
 .cases {
   background-color: #fff0d6;
   display: flex;
@@ -5,12 +11,14 @@
   justify-content: center;
   width: 100%;
 }
+
 :root {
   --verde-escuro-agricolar: #20583B;
   --creme-agricolar: #FFF1D7;
 }
+
 .cases .div {
- 
+
   overflow: hidden;
   width: 1920px;
   height: 940px;
@@ -26,6 +34,14 @@
   border-radius: 20px;
 }
 
+p {
+  text-align: center;
+  color: #20583b;
+  background-color: var(--creme-agricolar);
+  font-family: 'Poppins';
+  font-size: 44px;
+  
+}
 
 
 .cases .group {
@@ -36,7 +52,7 @@
   left: 0;
   background-color: #20583b;
   border-radius: 20px;
-  
+
 }
 
 
@@ -45,13 +61,14 @@
 
 .cases .IMG {
   position: absolute;
-  display: flex; align-items: center;
+  display: flex;
+  align-items: center;
   width: 421px;
   height: 262px;
   top: 9px;
   left: 13px;
   object-fit: cover;
-  
+
 }
 
 .cases .overlap-group {
@@ -67,12 +84,12 @@
   position: absolute;
   width: 448px;
   height: 279px;
-  top:250px;
+  top: 250px;
   left: 60px;
   border-radius: 20px;
 }
 
-footer{
+footer {
   background-color: var(--verde-escuro-agricolar);
 
   height: 290px;
@@ -83,7 +100,8 @@ footer{
 
 
 }
-.navs-footer{
+
+.navs-footer {
   height: 100px;
 
   margin-top: 60px;
@@ -92,21 +110,21 @@ footer{
   display: flex;
   justify-content: space-around;
   gap: 80px;
-  
+
 }
 
-.coluninha1{ 
+.coluninha1 {
   display: flex;
   flex-direction: column;
-  
+
   line-height: 55px;
 
-  
+
 }
 
-.coluninha1 a{
+.coluninha1 a {
   color: white;
-  
+
   font-size: 28px;
   font-family: 'Poppins';
 
@@ -115,16 +133,16 @@ footer{
   transition: color 500ms ease;
 }
 
-.coluninha2{
+.coluninha2 {
   display: flex;
   flex-direction: column;
-  
+
   line-height: 55px;
 }
 
-.coluninha2 a{
+.coluninha2 a {
   color: white;
-  
+
   font-size: 28px;
   font-family: 'Poppins';
 
@@ -134,12 +152,12 @@ footer{
 
 }
 
-.coluninha1 a:hover , .coluninha2 a:hover {
+.coluninha1 a:hover,
+.coluninha2 a:hover {
   color: var(--creme-agricolar)
-
 }
 
-.images{
+.images {
   height: 200px;
 
   margin-top: 50px;
@@ -151,7 +169,7 @@ footer{
   line-height: 45px;
 }
 
-.logo{
+.logo {
   width: 370px;
 
   display: flex;
@@ -161,12 +179,12 @@ footer{
 
 }
 
-.logo img{
+.logo img {
   height: 93px;
   width: 350px;
 }
 
-.redes{
+.redes {
   width: 370px;
 
   display: flex;
@@ -176,9 +194,9 @@ footer{
   gap: 5px;
 }
 
-.redes a{
+.redes a {
   text-decoration: none;
-  
+
 }
 
 .redes svg:hover {
@@ -186,7 +204,7 @@ footer{
 
 }
 
-#whatsapp{
+#whatsapp {
   margin-left: -10px;
 }
 
@@ -231,7 +249,8 @@ nav {
   background: #FFF1D7;
   height: 18vh;
 }
-nav img{
+
+nav img {
   height: 60px;
   width: 230px;
 }
@@ -261,301 +280,349 @@ main {
   background: #20583B;
   margin: 8px;
   transition: 0.3s;
-} 
-@media screen and (max-width: 1300px){
-  .coluninha1 a, .coluninha2 a{
-      font-size: 25px;
-  }
-
-  .logo img{
-      height: 80px;
-      width: 320px;
-  }
-.cases .IMG {
-  height: 201px;
-  width: 360px;
-  border-radius: 20px;
-  left: 7px;
-  top: 14px;
-  
 }
 
-.cases .overlap-2 {
-  top: 50px;
-  left: 440px;
+@media screen and (max-width: 1300px) {
+
+  .coluninha1 a,
+  .coluninha2 a {
+    font-size: 25px;
+  }
+
+  .logo img {
+    height: 80px;
+    width: 320px;
+  }
+
+  .cases .IMG {
+    height: 201px;
+    width: 360px;
+    border-radius: 20px;
+    left: 7px;
+    top: 14px;
+
+  }
+
+  .cases .overlap-2 {
+    top: 50px;
+    left: 440px;
+  }
+
+  .cases .overlap-group {
+    top: 350px;
+    left: 440px;
+  }
+
+  .cases .overlap {
+    top: 650px;
+    left: 440px;
+  }
+
+  .cases .group {
+    height: 228px;
+    width: 377px;
+
+  }
+
+  .redes {
+    width: 370px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    gap: 5px;
+
+  }
+
+  #whatsapp svg,
+  #tiktok svg,
+  #instagram svg,
+  #facebook svg {
+    width: 58px;
+    height: 50px;
+  }
+
+  #youtube svg {
+    width: 54px;
+    height: 50px;
+  }
 }
-.cases .overlap-group {
-  top: 350px;
-  left: 440px;
-}
-.cases .overlap{
-  top: 650px;
-  left: 440px;
-}
-.cases .group {
-  height: 228px;
-  width: 377px;
 
-}
-  .redes{
-      width: 370px;
+@media screen and (max-width: 1080px) {
 
-      display: flex;
-      justify-content: center;
-      flex-direction: row;
-
-      gap: 5px;
-
+  .coluninha1 a,
+  .coluninha2 a {
+    font-size: 22px;
   }
 
-  #whatsapp svg, #tiktok svg, #instagram svg,
-  #facebook svg{
-      width: 58px;
-      height: 50px;
+  .logo img {
+    height: 77px;
+    width: 290px;
+  }
+  .cases .overlap-2 {
+    top: 50px;
+    left: 370px;
   }
 
-  #youtube svg{
-      width: 54px;
-      height: 50px;
-  }
-}
-
-@media screen and (max-width: 1080px){
-  .coluninha1 a, .coluninha2 a{
-      font-size: 22px;
-  }
-  
-  .logo img{
-      height: 77px;
-      width: 290px;
+  .cases .overlap-group {
+    top: 350px;
+    left: 370px;
   }
 
-  
-  #whatsapp svg, #tiktok svg, #instagram svg,
-  #facebook svg{
-      width: 53px;
-      height: 48px;
+  .cases .overlap {
+    top: 650px;
+    left: 370px;
   }
 
-  #youtube svg{
-      width: 53px;
-      height: 48px;
+
+  #whatsapp svg,
+  #tiktok svg,
+  #instagram svg,
+  #facebook svg {
+    width: 53px;
+    height: 48px;
   }
 
-}
-
-@media screen and (max-width: 920px){
-  .navs-footer{
-      margin-left: 75px;
-  }
-
-  .images{
-      margin-right: 85px;
-  }
-
-  .coluninha1 a, .coluninha2 a{
-      font-size: 20px;
-  }
-
-  .logo img{
-      height: 71px;
-      width: 270px;
-  }
-
-  #whatsapp svg, #tiktok svg, #instagram svg,
-  #facebook svg{
-      width: 48px;
-      height: 43px;
-  }
-
-  #youtube svg{
-      width: 48px;
-      height: 43px;
+  #youtube svg {
+    width: 53px;
+    height: 48px;
   }
 
 }
 
-@media screen and (max-width: 800px){
-  .navs-footer{
-      gap: 52px;
+@media screen and (max-width: 920px) {
+  .navs-footer {
+    margin-left: 75px;
   }
 
-  .coluninha1 a, .coluninha2 a{
-      font-size: 18px;
+  .images {
+    margin-right: 85px;
+  } 
+
+  .coluninha1 a,
+  .coluninha2 a {
+    font-size: 20px;
   }
 
-  .images{
-      margin-right: 65px;
-  }
-  .logo img{
-      height: 65px;
-      width: 250px;
+  .logo img {
+    height: 71px;
+    width: 270px;
   }
 
-  .redes{
-      margin-top: 10px;
+  #whatsapp svg,
+  #tiktok svg,
+  #instagram svg,
+  #facebook svg {
+    width: 48px;
+    height: 43px;
   }
 
-  #whatsapp svg, #tiktok svg, #instagram svg,
-  #facebook svg{
-      width: 45px;
-      height: 40px;
-  }
-
-  #youtube svg{
-      width: 45px;
-      height: 40px;
-  }
-
-}
-
-@media screen and (max-width: 700px){
-  .coluninha1 a, .coluninha2 a{
-      font-size: 17px;
-  }
-  
-
-  .navs-footer{
-      gap: 40px;
-  }
-
-  .images{
-      margin-right: 15px;
-  }
-
-  .logo img{
-      height: 57px;
-      width: 215px;
-  }
-
-  .redes{
-      margin-top: 15px;
-  }
-
-  #whatsapp svg, #tiktok svg, #instagram svg,
-  #facebook svg{
-      width: 40px;
-      height: 35px;
-  }
-
-  #youtube svg{
-      width: 42px;
-      height: 35px;
-  }
-}
-
-@media screen and (max-width: 640px){
-  .navs-footer{
-      margin-left: 54px;
-  }
-  
-
-  .coluninha1 a, .coluninha2 a{
-      font-size: 16px;
-      font-weight: 600;
-  }
-}
-
-@media screen and (max-width: 590px){
-  .navs-footer{
-      margin-left: 35px;
-  }
-
-  .logo img{
-
-      margin-top: 25px;
-      height: 51px;
-      width: 195px;
-
-  }
-
-  .redes{
-      gap: 1px;
-  }
-
-  #whatsapp svg, #tiktok svg, #instagram svg,
-  #facebook svg{
-      width: 40px;
-      height: 31px;
-  }
-
-  #youtube svg{
-      width: 37px;
-      height: 31px;
-  }
-}
-
-@media screen and (max-width: 545px){
-  .navs-footer{
-      margin-left: 23px;
-  }
-}
-
-@media screen and (max-width: 521px){
-
-  .navs-footer{
-      margin-left: 27px;
-
-      gap: 22px;
-  }
-
-  .coluninha1 a, .coluninha2 a{
-      font-size: 14px;
-      font-weight: 600;
-  }
-}
-
-@media screen and (max-width: 490px){
-  .navs-footer{
-      
-  }
-
-  .logo img{
-      height: 47px;
-      width: 170px;
-  }
-
-  .redes{
-      margin-top: 7px;
-  }
-
-  #whatsapp svg, #tiktok svg, #instagram svg,
-  #facebook svg, #youtube svg{
-      width: 35px;
-      height: 29px;
+  #youtube svg {
+    width: 48px;
+    height: 43px;
   }
 
 }
 
-@media screen and (max-width: 400px){
-  .navs-footer{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: initial;
-
-      margin-left: 35px;
-  }
-  .coluninha1 a, .coluninha2 a{
-      font-size: 10px;
+@media screen and (max-width: 800px) {
+  .navs-footer {
+    gap: 52px;
   }
 
+  .coluninha1 a,
+  .coluninha2 a {
+    font-size: 18px;
+  }
 
-  #footer_copyright{
-      font-size: 11px;
+  .images {
+    margin-right: 65px;
+  }
+
+  .logo img {
+    height: 65px;
+    width: 250px;
+  }
+
+  .redes {
+    margin-top: 10px;
+  }
+
+  #whatsapp svg,
+  #tiktok svg,
+  #instagram svg,
+  #facebook svg {
+    width: 45px;
+    height: 40px;
+  }
+
+  #youtube svg {
+    width: 45px;
+    height: 40px;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+
+  .coluninha1 a,
+  .coluninha2 a {
+    font-size: 17px;
+  }
+
+
+  .navs-footer {
+    gap: 40px;
+  }
+
+  .images {
+    margin-right: 15px;
+  }
+
+  .logo img {
+    height: 57px;
+    width: 215px;
+  }
+
+  .redes {
+    margin-top: 15px;
+  }
+
+  #whatsapp svg,
+  #tiktok svg,
+  #instagram svg,
+  #facebook svg {
+    width: 40px;
+    height: 35px;
+  }
+
+  #youtube svg {
+    width: 42px;
+    height: 35px;
   }
 }
 
-@media screen and (max-width: 1250px){
-  nav img{
-      margin-top: 40px;
+@media screen and (max-width: 640px) {
+  .navs-footer {
+    margin-left: 54px;
+  }
+
+
+  .coluninha1 a,
+  .coluninha2 a {
+    font-size: 16px;
+    font-weight: 600;
   }
 }
 
-@media screen and (max-width: 1200px){
+
+@media screen and (max-width: 590px) {
+  .navs-footer {
+    margin-left: 35px;
+  }
+
+  .logo img {
+
+    margin-top: 25px;
+    height: 51px;
+    width: 195px;
+
+  }
+
+  .redes {
+    gap: 1px;
+  }
+
+  #whatsapp svg,
+  #tiktok svg,
+  #instagram svg,
+  #facebook svg {
+    width: 40px;
+    height: 31px;
+  }
+
+  #youtube svg {
+    width: 37px;
+    height: 31px;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .navs-footer {
+    margin-left: 23px;
+  }
+}
+
+@media screen and (max-width: 521px) {
+
+  .navs-footer {
+    margin-left: 27px;
+
+    gap: 22px;
+  }
+
+  .coluninha1 a,
+  .coluninha2 a {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .navs-footer {}
+
+  .logo img {
+    height: 47px;
+    width: 170px;
+  }
+
+  .redes {
+    margin-top: 7px;
+  }
+
+  #whatsapp svg,
+  #tiktok svg,
+  #instagram svg,
+  #facebook svg,
+  #youtube svg {
+    width: 35px;
+    height: 29px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .navs-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: initial;
+
+    margin-left: 35px;
+  }
+
+  .coluninha1 a,
+  .coluninha2 a {
+    font-size: 10px;
+  }
+
+
+  #footer_copyright {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  nav img {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
   body {
     overflow-x: hidden;
   }
+
   .nav-list {
     position: absolute;
     top: 0vh;
@@ -570,26 +637,28 @@ main {
     transition: transform 0.3s ease-in;
   }
 
-  .nav-list a{
-      color: #20583B;
-      font-size: 20px;
-      font-family: "Poppins";
-      margin-left: 40px;
+  .nav-list a {
+    color: #20583B;
+    font-size: 20px;
+    font-family: "Poppins";
+    margin-left: 40px;
   }
+
   .nav-list li {
     margin-left: 0;
     opacity: 0;
   }
 
-  nav img{
-      margin-top: 40px;
-      margin-left: 60px;
+  nav img {
+    margin-top: 40px;
+    margin-left: 60px;
   }
 
-  nav{
-      display: flex;
-      justify-content: space-between;
+  nav {
+    display: flex;
+    justify-content: space-between;
   }
+
   .mobile-menu {
     display: block;
     margin-top: 45px;
@@ -608,6 +677,7 @@ main {
     opacity: 0;
     transform: translateX(50px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -625,53 +695,56 @@ main {
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
 }
-.mobile-menu.active .line1, .mobile-menu.active .line2, .mobile-menu.active .line3{
+
+.mobile-menu.active .line1,
+.mobile-menu.active .line2,
+.mobile-menu.active .line3 {
   margin-left: -10px;
 }
 
-@media screen and (max-width: 770px){
-  .nav-list a{
-      color: #20583B;
-      font-size: 15px;
-      font-family: "Poppins";
-      margin-left: 40px;
+@media screen and (max-width: 770px) {
+  .nav-list a {
+    color: #20583B;
+    font-size: 15px;
+    font-family: "Poppins";
+    margin-left: 40px;
   }
 
   .mobile-menu {
-      margin-right: 40px;
-    }
+    margin-right: 40px;
+  }
 }
 
-@media screen and (max-width: 630px){
-  .nav-list a{
-      color: #20583B;
-      font-size: 15px;
-      font-family: "Poppins";
-      margin-left: 20px;
+@media screen and (max-width: 630px) {
+  .nav-list a {
+    color: #20583B;
+    font-size: 15px;
+    font-family: "Poppins";
+    margin-left: 20px;
   }
 
   .mobile-menu {
-      margin-right: 20px;
-    }
+    margin-right: 20px;
+  }
 }
 
-@media screen and (max-width: 555px){
+@media screen and (max-width: 555px) {
 
-  .nav-list a{
-      font-size: 12px;
+  .nav-list a {
+    font-size: 12px;
   }
 
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px) {
   .mobile-menu {
-      margin-right: 5px;
-      margin-top: 20px;
-    }
+    margin-right: 5px;
+    margin-top: 20px;
+  }
 
-    .nav-list a{
-      font-size: 10px;
-      font-weight: 900;
-      margin-left: 8px;
+  .nav-list a {
+    font-size: 10px;
+    font-weight: 900;
+    margin-left: 8px;
   }
 }

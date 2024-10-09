@@ -152,7 +152,7 @@ main {
     gap: 20px;
 }
 
-.texto button {
+.texto .botao1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -178,15 +178,15 @@ main {
     color: #60502F;
 }
 
-.texto button a {
+.texto .botao1 a {
     color: white;
 }
 
-.texto button:hover {
+.texto .butao1:hover {
     background-color: #133322;
 }
 
-.texto button a:hover {
+.texto .butao1 a:hover {
     color: #FFF1D7;
 }
 
@@ -258,6 +258,10 @@ a {
 }
 
 .botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     position: absolute;
     bottom: 80px;
     left: 42%;
