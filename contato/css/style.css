@@ -405,6 +405,7 @@ footer{
   
   font-size: 28px;
   font-family: 'Poppins';
+  font-weight: 400;
 
   text-decoration: none;
 
@@ -423,6 +424,7 @@ footer{
   
   font-size: 28px;
   font-family: 'Poppins';
+  font-weight: 400;
 
   text-decoration: none;
 
@@ -466,7 +468,7 @@ footer{
   width: 370px;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: row;
 
   gap: 5px;
