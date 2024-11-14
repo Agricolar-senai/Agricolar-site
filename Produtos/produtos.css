@@ -460,6 +460,11 @@ footer {
         height: 50px;
     }
 
+    #linkedin svg{
+        height: 50px;
+
+    }
+
     #youtube svg {
         width: 54px;
         height: 50px;
@@ -485,6 +490,11 @@ footer {
     #facebook svg {
         width: 53px;
         height: 48px;
+    }
+
+    #linkedin svg{
+        height: 48px;
+
     }
 
     #youtube svg {
@@ -514,12 +524,13 @@ footer {
     }
 
     #whatsapp svg,
-    #tiktok svg,
+    #tiktok svg, #linkedin svg,
     #instagram svg,
     #facebook svg {
         width: 48px;
         height: 43px;
     }
+
 
     #youtube svg {
         width: 48px;
@@ -552,7 +563,7 @@ footer {
     }
 
     #whatsapp svg,
-    #tiktok svg,
+    #tiktok svg, #linkedin svg,
     #instagram svg,
     #facebook svg {
         width: 45px;
@@ -591,7 +602,7 @@ footer {
     }
 
     #whatsapp svg,
-    #tiktok svg,
+    #tiktok svg, #linkedin svg, 
     #instagram svg,
     #facebook svg {
         width: 40px;
@@ -633,7 +644,7 @@ footer {
         gap: 1px;
     }
 
-    #whatsapp svg,
+    #whatsapp svg, #linkedin svg, 
     #tiktok svg,
     #instagram svg,
     #facebook svg {
@@ -680,14 +691,13 @@ footer {
     }
 
     #whatsapp svg,
-    #tiktok svg,
+    #tiktok svg, #linkedin svg, 
     #instagram svg,
     #facebook svg,
     #youtube svg {
         width: 35px;
         height: 29px;
     }
-
 }
 
 @media screen and (max-width: 480px) {

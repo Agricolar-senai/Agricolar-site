@@ -128,6 +128,8 @@ header{
       line-height: 50px;
       transform: translateX(100%);
       transition: transform 0.3s ease-in;
+
+      color: #20583B;
     }
 
     .nav-list a{
@@ -192,7 +194,7 @@ header{
 
 @media screen and (max-width: 770px){
     .nav-list a{
-        color: #FFF1D7;
+        color: #20583B;
         font-size: 15px;
         font-family: "Poppins";
         margin-left: 40px;
@@ -205,7 +207,7 @@ header{
 
 @media screen and (max-width: 630px){
     .nav-list a{
-        color: #FFF1D7;
+        color: #20583B;
         font-size: 15px;
         font-family: "Poppins";
         margin-left: 20px;
@@ -512,6 +514,10 @@ footer{
         height: 50px;
     }
 
+    #linkedin svg{
+        height: 50px;
+    }
+
     #youtube svg{
         width: 54px;
         height: 50px;
@@ -532,6 +538,10 @@ footer{
     #whatsapp svg, #tiktok svg, #instagram svg,
     #facebook svg{
         width: 53px;
+        height: 48px;
+    }
+
+    #linkedin svg{
         height: 48px;
     }
 
@@ -563,6 +573,10 @@ footer{
     #whatsapp svg, #tiktok svg, #instagram svg,
     #facebook svg{
         width: 48px;
+        height: 43px;
+    }
+
+    #linkedin svg{
         height: 43px;
     }
 
@@ -600,6 +614,10 @@ footer{
         height: 40px;
     }
 
+    #linkedin svg{
+        height: 40px;
+    }
+
     #youtube svg{
         width: 45px;
         height: 40px;
@@ -633,6 +651,10 @@ footer{
     #facebook svg{
         width: 40px;
         height: 35px;
+    }
+
+    #linkedin svg{
+        height: 36px;
     }
 
     #youtube svg{
@@ -675,6 +697,10 @@ footer{
         height: 31px;
     }
 
+    #linkedin svg{
+        height: 31px;
+    }
+
     #youtube svg{
         width: 37px;
         height: 31px;
@@ -713,7 +739,7 @@ footer{
     }
 
     #whatsapp svg, #tiktok svg, #instagram svg,
-    #facebook svg, #youtube svg{
+    #facebook svg, #youtube svg, #linkedin svg{
         width: 35px;
         height: 29px;
     }

@@ -460,24 +460,18 @@ footer {
     }
 
     #whatsapp svg,
-    #tiktok svg,
     #instagram svg,
-    #facebook svg, #linkedin {
+    #facebook svg {
         width: 58px;
         height: 50px;
     }
 
-    #youtube svg {
-        width: 54px;
+    #linkedin svg{
         height: 50px;
+
     }
 }
 
-/* @media screen and (max-width: 1250px) {
-    nav img {
-        margin-top: 40px;
-    }
-} */
 
 @media screen and (max-width: 1200px) {
     body {
@@ -640,14 +634,14 @@ footer {
     #whatsapp svg,
     #tiktok svg,
     #instagram svg,
-    #facebook svg {
+    #facebook svg{
         width: 48px;
         height: 43px;
     }
 
-    #youtube svg {
-        width: 48px;
-        height: 43px;
+    #linkedin svg{
+        height: 45px;
+
     }
 
 }
@@ -742,6 +736,11 @@ footer {
         height: 40px;
     }
 
+    #linkedin svg{
+        height: 42px;
+
+    }
+
     #youtube svg {
         width: 45px;
         height: 40px;
@@ -776,9 +775,14 @@ footer {
     #whatsapp svg,
     #tiktok svg,
     #instagram svg,
-    #facebook svg {
+    #facebook svg{
         width: 40px;
         height: 35px;
+    }
+
+    #linkedin svg{
+        height: 38px;
+
     }
 
     #youtube svg {
@@ -838,6 +842,11 @@ footer {
         height: 31px;
     }
 
+    #linkedin svg{
+        height: 50px;
+
+    }
+
     #youtube svg {
         width: 37px;
         height: 31px;
@@ -881,11 +890,24 @@ footer {
     #tiktok svg,
     #instagram svg,
     #facebook svg,
-    #youtube svg {
+    #youtube svg{
         width: 35px;
         height: 29px;
     }
 
+    #linkedin svg{
+        height: 30px;
+
+    }
+
+}
+
+@media screen and (max-width: 589px) {
+    #linkedin svg{
+        height: 30px;
+
+    }
+    
 }
 
 @media screen and (max-width: 400px) {
@@ -994,7 +1016,7 @@ footer {
 
 @media screen and (max-width: 770px){
     .nav-list a{
-        color: #FFF1D7;
+        color: #20583B;
         font-size: 15px;
         font-family: "Poppins";
         margin-left: 40px;
@@ -1007,7 +1029,7 @@ footer {
 
 @media screen and (max-width: 630px){
     .nav-list a{
-        color: #FFF1D7;
+        color: #20583B;
         font-size: 15px;
         font-family: "Poppins";
         margin-left: 20px;
