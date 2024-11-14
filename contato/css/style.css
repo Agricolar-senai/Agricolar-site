@@ -409,7 +409,7 @@ footer{
 
   text-decoration: none;
 
-  transition: color 500ms ease;
+  /* transition: color 500ms ease; */
 }
 
 .coluninha2{
@@ -428,8 +428,12 @@ footer{
 
   text-decoration: none;
 
-  transition: color 200ms ease;
+  /* transition: color 200ms ease; */
 
+}
+
+.coluninha1 a, .coluninha2 a{
+  transition: color 0.2s ease; /* Suaviza o hover */
 }
 
 .coluninha1 a:hover , .coluninha2 a:hover {

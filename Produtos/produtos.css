@@ -254,6 +254,20 @@ h2 {
     width: 400px;
 }
 
+/* Estilo base para as imagens */
+.cards img {
+    display: inline-block;
+    max-width: 100%; /* Garante que as imagens sejam responsivas */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza a transição */
+    border-radius: 10px; /* Opcional: deixa as imagens mais modernas */
+}
+
+/* Animação de pulo ao passar o mouse */
+.cards img:hover {
+    transform: translateY(-10px); /* Move para cima 10px */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adiciona sombra */
+}
+
 p {
     font-size: 30px;
 
@@ -315,7 +329,7 @@ footer {
 
     text-decoration: none;
 
-    transition: color 500ms ease;
+    /* transition: color 500ms ease; */
 }
 
 .coluninha2 {
@@ -333,8 +347,12 @@ footer {
 
     text-decoration: none;
 
-    transition: color 200ms ease;
+    /* transition: color 200ms ease; */
 
+}
+
+.coluninha1 a, .coluninha2 a{
+    transition: color 0.2s ease; /* Suaviza o hover */
 }
 
 .coluninha1 a:hover,

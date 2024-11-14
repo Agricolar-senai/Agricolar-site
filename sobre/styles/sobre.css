@@ -309,18 +309,21 @@ header{
     margin-bottom: 60px;
 
     cursor: pointer;
+
+    transition: background-color 0.2 ease, color 0.2s ease; /* Suaviza o hover */
 }
 
 .small-button:hover {
-    border-color: #20583B
+    border-color: #60502F;
+    background-color: #60502F;
 }
 
 .small-button:hover a {
-    color: #20583B;
+    color: white;
 }
 
 .small-button:hover path {
-    fill: #20583B;
+    fill: white;
 }
 
 .small-button a{
@@ -338,12 +341,6 @@ header{
     width: 18px;
     margin-left: 9px;
 }
-
-.small-button path:hover {
-    /* color: #20583B; */
-    fill: #20583B;
-}
-
 
 footer{
     background-color: var(--verde-escuro-agricolar);
@@ -385,7 +382,7 @@ footer{
 
     text-decoration: none;
 
-    transition: color 500ms ease;
+    /* transition: color 500ms ease; */
 }
 
 .coluninha2{
@@ -403,8 +400,12 @@ footer{
 
     text-decoration: none;
 
-    transition: color 200ms ease;
+    /* transition: color 200ms ease; */
 
+}
+
+.coluninha1 a, .coluninha2 a{
+    transition: color 0.2s ease; /* Suaviza o hover */
 }
 
 .coluninha1 a:hover , .coluninha2 a:hover {
@@ -447,6 +448,7 @@ footer{
     flex-direction: row;
 
     gap: 5px;
+    
 }
 
 .redes a{
