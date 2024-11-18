@@ -511,6 +511,89 @@ footer{
 }
 
 
+/* Ajustes para telas médias (tablets e menores) */
+@media (max-width: 1024px) {
+  .contact .custom-title {
+    font-size: 22px; /* Reduz o tamanho do título */
+    text-align: center; /* Centraliza o título */
+  }
+
+  .contact .contactform input[type="text"],
+  .contact .contactform input[type="email"],
+  .contact .contactform textarea {
+    font-size: 14px; /* Ajusta o tamanho do texto dos campos */
+    padding: 10px; /* Reduz o espaçamento interno */
+  }
+
+  .contact .contactform .btn {
+    font-size: 14px; /* Reduz o tamanho do botão */
+    padding: 0 20px; /* Ajusta o espaçamento lateral */
+  }
+
+  .contact .main-content {
+    padding: 20px; /* Reduz as margens em dispositivos menores */
+  }
+}
+
+/* Ajustes para dispositivos móveis (smaller than 768px) */
+@media (max-width: 768px) {
+  .title-section {
+    padding: 40px 20px; /* Reduz o padding geral */
+  }
+
+  .contact .main-content {
+    padding-bottom: 50px; /* Ajusta a margem inferior */
+  }
+
+  .contactform .row {
+    flex-direction: column; /* Empilha os campos do formulário */
+    gap: 15px; /* Adiciona espaçamento entre os campos */
+  }
+
+  .contact .contactform input[type="text"],
+  .contact .contactform input[type="email"],
+  .contact .contactform textarea {
+    font-size: 12px; /* Reduz mais o texto dos campos */
+  }
+
+  .contact .contactform textarea {
+    height: 120px; /* Ajusta a altura do campo de texto */
+  }
+
+  .btn {
+    width: 100%; /* Botão ocupa toda a largura */
+    padding: 10px; /* Ajusta o espaçamento interno */
+  }
+}
+
+/* Ajustes para telas muito pequenas (smaller than 480px) */
+@media (max-width: 480px) {
+  .title-section h1 {
+    font-size: 1.8rem; /* Reduz o tamanho do título */
+  }
+
+  .contact .custom-title {
+    font-size: 18px; /* Reduz ainda mais o título */
+  }
+
+  .contactform .btn {
+    font-size: 12px; /* Texto menor no botão */
+    padding: 10px 15px; /* Ajusta o espaçamento */
+  }
+
+  .contact .contactform input[type="text"],
+  .contact .contactform input[type="email"],
+  .contact .contactform textarea {
+    font-size: 12px; /* Ajusta o texto para telas pequenas */
+    padding: 8px; /* Reduz o espaçamento interno */
+  }
+
+  .contact .main-content {
+    padding: 10px; /* Reduz o padding geral */
+  }
+}
+
+
 @media screen and (max-width: 1250px){
   nav img{
       margin-top: 27px;

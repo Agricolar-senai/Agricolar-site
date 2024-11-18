@@ -409,6 +409,64 @@ footer {
     color: white;
 }
 
+/* Responsividade: Ajustes para telas menores */
+@media (max-width: 1024px) {
+    .sobre {
+      flex-direction: column; /* Empilha elementos em telas menores */
+      align-items: center;
+      text-align: center;
+    }
+  
+    .texto p {
+      width: 90%; /* Ocupa quase toda a largura da tela */
+      font-size: 1.5rem; /* Ajusta o tamanho do texto */
+    }
+  
+    .botao1 {
+      width: 200px;
+      height: 50px;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .sobre {
+      gap: 20px; /* Reduz o espaçamento em dispositivos menores */
+    }
+  
+    .alinhamento2 {
+      flex-direction: column; /* Empilha os cards */
+      align-items: center;
+    }
+  
+    .alinhamento2 a img {
+      width: 80%; /* Reduz tamanho das imagens */
+      height: auto;
+    }
+  
+    .botao {
+      left: 50%; /* Alinha no centro */
+      transform: translateX(-50%); /* Corrige o deslocamento */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cards img {
+      width: 90%; /* Ajusta imagens para ocupar mais espaço */
+    }
+  
+    .texto p {
+      font-size: 1.2rem; /* Reduz o texto ainda mais para caber */
+    }
+  
+    .botao {
+      width: 180px;
+      height: 45px;
+      font-size: 0.9rem;
+    }
+  }
+  
+
 @media screen and (max-width:1330px) {
     .sobre {
         display: flex;

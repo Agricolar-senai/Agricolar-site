@@ -429,6 +429,61 @@ footer {
     color: white;
 }
 
+/* Ajustes para dispositivos menores */
+@media (max-width: 1024px) {
+    .cards {
+      flex-direction: column; /* Empilha as imagens */
+      gap: 30px; /* Reduz o espaçamento entre as imagens */
+      align-items: center; /* Centraliza as imagens */
+    }
+  
+    .cards img {
+      width: 80%; /* Ajusta a largura das imagens */
+      height: auto; /* Mantém a proporção */
+    }
+  
+    p {
+      font-size: 1.5rem; /* Reduz o tamanho do texto */
+      text-align: center; /* Centraliza o texto */
+      padding: 0 20px; /* Adiciona espaçamento nas laterais */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 1.8rem; /* Reduz o tamanho dos títulos */
+      margin-top: 80px; /* Ajusta o espaçamento superior */
+    }
+  
+    .cards img {
+      width: 90%; /* Ajusta ainda mais as imagens */
+    }
+  
+    p {
+      font-size: 1.3rem; /* Reduz mais o tamanho do texto */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cards {
+      gap: 15px; /* Reduz ainda mais o espaçamento */
+    }
+  
+    h2 {
+      font-size: 1.5rem; /* Diminui o título para caber melhor */
+    }
+  
+    .cards img {
+      width: 95%; /* Quase toda a largura da tela */
+      height: auto; /* Mantém a proporção */
+    }
+  
+    p {
+      font-size: 1.1rem; /* Texto pequeno para dispositivos menores */
+    }
+  }
+  
+
 @media screen and (max-width: 1300px) {
 
     .coluninha1 a,
