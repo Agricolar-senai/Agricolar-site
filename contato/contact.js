@@ -43,45 +43,25 @@ class MobileNavbar {
   );
   mobileNavbar.init();
 
-  function alertForms(){
-    
-  }
-
-  function alertForms() {
+  document.addEventListener("DOMContentLoaded", function () {
     const contactForm = document.getElementById('contactform');
-    
+
     if (contactForm) {
         contactForm.addEventListener('submit', function (event) {
             event.preventDefault(); // Impede o envio padrão do formulário
             
-            // Captura os dados do formulário
+            // Captura os dados do formulário (opcional, para uso posterior)
             const formData = {
                 name: contactForm.querySelector('input[name="Name"]').value,
                 email: contactForm.querySelector('input[name="Email"]').value,
                 message: contactForm.querySelector('textarea[name="Phone"]').value,
             };
 
-            // Envia os dados para o JSON Server
-            fetch('http://localhost:3000/messages', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(formData),
-            })
-            .then(response => {
-                if (response.ok) {
-                    alert("Formulário enviado com sucesso!");
-                    contactForm.reset(); // Limpa o formulário após o envio
-                } else {
-                    alert("Erro ao enviar o formulário. Tente novamente.");
-                }
-            })
-            .catch(() => alert("Não foi possível enviar os dados. Verifique sua conexão."));
+            // Exibe o alerta de sucesso
+            alert("Formulário enviado com sucesso!");
+            
+            // Limpa o formulário
+            contactForm.reset();
         });
     }
-}
-  
-// Inicializa a função de alert do formulário
-alertForms();
-
+});

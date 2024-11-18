@@ -269,7 +269,7 @@ a {
 }
 
 footer {
-    background-color: var(--verde-escuro-agricolar);
+    background-color: #20583B;
 
     height: 290px;
     display: flex;
@@ -340,7 +340,7 @@ footer {
 
 .coluninha1 a:hover,
 .coluninha2 a:hover {
-    color: var(--creme-agricolar)
+    color: #ecd1a0;
 }
 
 .images {
