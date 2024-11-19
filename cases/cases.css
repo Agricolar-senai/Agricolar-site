@@ -83,15 +83,207 @@ main {
 } 
 /* FIM DO HEADER */
 
-.titulop p{
+/* .titulop p{
   font-weight: 700;
   margin-top: 100px;
 
   margin-bottom: -120px;
+} */
+
+
+
+
+#Projetos{
+  height: 1450px;
+  padding-top: 80px;
 }
 
 
-.cases {
+.palestras{
+
+
+  margin-top: 100px;
+  margin-left: 35px;
+  margin-right: 35px;
+  display: flex;
+
+  gap: 50px;
+}
+
+.texto1{
+
+  font-family: "Poppins";
+  color: #20583B;
+  text-align: justify;
+
+
+
+/* 
+  text-indent: 55px;
+  line-height: 40px; */
+}
+
+.texto1 h2{
+  font-size: 35px;
+  font-family: "Poppins";
+  color: #20583B;
+
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 15px;
+
+}
+
+.texto1 p{
+  font-size: 19px;
+  font-family: "Poppins";
+  color: #20583B;
+
+  text-indent: 55px;
+  line-height: 37px; 
+
+}
+
+
+.img1 img{
+  height: 300px;
+  
+}
+
+.clube{
+
+
+  margin-top: 100px;
+  margin-left: 35px;
+  margin-right: 35px;
+  display: flex;
+  flex-direction: row-reverse;
+
+  gap: 50px;
+}
+
+.texto2{
+
+  font-family: "Poppins";
+  color: #20583B;
+  text-align: justify;
+
+
+
+/* 
+  text-indent: 55px;
+  line-height: 40px; */
+}
+
+.texto2 h2{
+  font-size: 35px;
+  font-family: "Poppins";
+  color: #20583B;
+
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 15px;
+
+}
+
+.texto2 p{
+  font-size: 19px;
+  font-family: "Poppins";
+  color: #20583B;
+
+  text-indent: 55px;
+  line-height: 37px; 
+
+}
+
+
+.img2 img{
+  height: 300px;
+  
+}
+
+.oficina{
+
+
+  margin-top: 100px;
+  margin-left: 35px;
+  margin-right: 35px;
+  display: flex;
+
+  gap: 50px;
+}
+
+.texto3{
+
+  font-family: "Poppins";
+  color: #20583B;
+
+
+/* 
+  text-indent: 55px;
+  line-height: 40px; */
+}
+
+.texto3 h2{
+  font-size: 35px;
+  font-family: "Poppins";
+  color: #20583B;
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.texto3 span{
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Poppins";
+  color: #20583B;
+
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 15px;
+
+}
+
+.texto3 p{
+  font-size: 19px;
+  font-family: "Poppins";
+  color: #20583B;
+
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+
+  text-indent: 55px;
+  line-height: 37px; 
+
+}
+
+
+.img3 img{
+  height: 300px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .cases {
   background-color: #fff0d6;
   display: flex;
   flex-direction: row;
@@ -176,7 +368,7 @@ p {
   top: 250px;
   left: 60px;
   border-radius: 20px;
-}
+} */
 
 footer {
   background-color: #20583B;
@@ -325,6 +517,76 @@ footer {
   margin: 25px auto;
 }
 
+
+/*Responsividade atualizada*/
+@media (max-width: 1024px) {
+  .palestras, .clube, .oficina {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .palestras .img1 img,
+  .clube .img2 img,
+  .oficina .img3 img {
+    height: 250px;
+  }
+
+  .texto1 p, .texto2 p, .texto3 p {
+    text-indent: 0;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  #Projetos {
+    height: auto;
+    padding-top: 40px;
+  }
+
+  .palestras, .clube, .oficina {
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 30px;
+  }
+
+  .palestras .img1 img,
+  .clube .img2 img,
+  .oficina .img3 img {
+    height: 200px;
+  }
+
+  .texto1 h2, .texto2 h2, .texto3 h2 {
+    font-size: 28px;
+  }
+
+  .texto1 p, .texto2 p, .texto3 p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .palestras, .clube, .oficina {
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 15px;
+  }
+
+  .palestras .img1 img,
+  .clube .img2 img,
+  .oficina .img3 img {
+    height: 150px;
+  }
+
+  .texto1 h2, .texto2 h2, .texto3 h2 {
+    font-size: 24px;
+  }
+
+  .texto1 p, .texto2 p, .texto3 p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
 
 @media screen and (max-width: 1300px) {
 
